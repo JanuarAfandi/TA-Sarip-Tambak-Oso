@@ -41,6 +41,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
      <Compile Include="Assets\Script\Pindahscene11.cs" />
+     <Compile Include="Assets\Script\Objective.cs" />
      <Compile Include="Assets\Script\UIManager.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
      <Compile Include="Assets\Script\MainMenu.cs" />
+     <Compile Include="Assets\Script\SwipeControl.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
@@ -72,9 +74,8 @@
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\MovePlayer.cs" />
      <Compile Include="Assets\Script\volumeslider.cs" />
-     <Compile Include="Assets\Script\SwipeControl.cs" />
-     <Compile Include="Assets\Script\Objective.cs" />
-     <Compile Include="Assets\Script\Script Chapter 1\ObjectiveChapter1.cs" />
+     <Compile Include="Assets\Script\Objective\ObjectiveChat.cs" />
+     <Compile Include="Assets\Script\AI Script\AIBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

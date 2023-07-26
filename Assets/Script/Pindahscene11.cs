@@ -5,12 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class Pindahscene11 : MonoBehaviour
 {
-    public Objective objectiveLevel;
+    public List<Objective> objectiveLevel;
     [SerializeField] private string newscene;
     
+    private bool IsObjectiveDone() {
+        foreach (Objective obj in objectiveLevel) {
+            if (!obj.IsDone())
+                return false;
+        }
+        
+        return true;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!objectiveLevel.IsDone()) return;
+        if (!IsObjectiveDone()) 
+            return;
 
         if(other.CompareTag("Player"))
         {
