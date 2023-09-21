@@ -45,6 +45,7 @@
      <Compile Include="Assets\Script\UIManager.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
+     <Compile Include="Assets\Script\AI Script\AIBehaviour.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
      <Compile Include="Assets\Script\NPCChat.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
@@ -63,6 +64,7 @@
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
+     <Compile Include="Assets\Script\Objective\ObjectiveChat.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
@@ -74,8 +76,6 @@
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\MovePlayer.cs" />
      <Compile Include="Assets\Script\volumeslider.cs" />
-     <Compile Include="Assets\Script\Objective\ObjectiveChat.cs" />
-     <Compile Include="Assets\Script\AI Script\AIBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
