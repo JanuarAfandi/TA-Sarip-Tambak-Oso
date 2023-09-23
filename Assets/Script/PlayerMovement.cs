@@ -1,82 +1,99 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public new Animator animation;
-    private PlayerController _playerController;
-    private Rigidbody2D _rigidbody2D;
+    [Header("Properties")]
+    public float MoveSpeed = 10f;
+    public float JumpForce = 10f;
+    public LayerMask GroundLayer;
 
-    private bool isGround;
+    [Header("References")]
+    //[SerializeField] private Transform _graphics = null;
+    [SerializeField] private Animator _animator = null;
+    [SerializeField] private Rigidbody2D _rigidbody = null;
 
-    [SerializeField] private LayerMask _layerMask;
+    private PlayerController _playerController = null;
+    private float _moveDirection = 0f;
 
-    private float speed = 10f;
-
-    // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         _playerController = new PlayerController();
-        _rigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    private void Start()
-    {
-        _playerController.Land.Jump.performed += _ => Jump();
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Move();
-    }
-
-    private void Move() {
-        var movementInput = _playerController.Land.Move.ReadValue<float>();
-        Flip(movementInput);
-        _rigidbody2D.velocity = new Vector2(movementInput * speed, 0f);
-        
-        animation.SetBool("Run", movementInput != 0);
-    }
-
-    private void Flip(float flip)
-    {
-        Vector3 scaleBefore = transform.localScale;
-        if (flip < 0) transform.localScale = new Vector3(-Mathf.Abs(scaleBefore.x), scaleBefore.y, scaleBefore.z);
-        else if (flip > 0) transform.localScale = new Vector3(Mathf.Abs(scaleBefore.x), scaleBefore.y, scaleBefore.z);
-    }
-
-    private void Jump()
-    {
-        if (isGround)
-        {
-            _rigidbody2D.AddForce(new Vector2(0f, 3000f));
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "Ground")
-        {
-            isGround = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Ground")
-        {
-            isGround = false;
-        }
     }
 
     private void OnEnable()
     {
-        _playerController.Enable();
+        _playerController.Land.Enable();
+        _playerController.Land.Move.performed += Move_peformed;
+        _playerController.Land.Move.canceled += Move_canceled;
+        _playerController.Land.Jump.started += Jump_started;
     }
 
     private void OnDisable()
     {
-        _playerController.Disable();
+        _playerController.Land.Move.performed -= Move_peformed;
+        _playerController.Land.Move.canceled -= Move_canceled;
+        _playerController.Land.Jump.started -= Jump_started;
+        _playerController.Land.Disable();
+    }
+
+    private void FixedUpdate()
+    {
+        Move(_moveDirection);
+    }
+
+    private void Move_peformed(InputAction.CallbackContext ctx)
+    {
+        _moveDirection = ctx.ReadValue<float>();
+    }
+
+    private void Move_canceled(InputAction.CallbackContext ctx)
+    {
+        _moveDirection = 0f;
+    }
+
+    private void Jump_started(InputAction.CallbackContext ctx)
+    {
+        Jump();
+    }
+
+    public virtual void Move(float direction)
+    {
+        _animator.SetBool("Run", direction != 0);
+
+        if (direction == 0)
+        {
+            _rigidbody.velocity = new Vector2(0f, _rigidbody.velocity.y);
+
+            return;
+        }
+
+        // Flip character graphics based on direction
+        if (direction == 1)
+            transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, 0, transform.rotation.eulerAngles.z));
+        else if (direction == -1)
+            transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, 180, transform.rotation.eulerAngles.z));
+
+        // Walk by rigidbody
+        _rigidbody.velocity = new Vector2(direction * MoveSpeed, _rigidbody.velocity.y);
+    }
+
+    public virtual void Jump()
+    {
+        Debug.Log("Jump 1");
+
+        if (!GroundCheck()) return;
+
+        Debug.Log("Jump 2");
+
+        _rigidbody.AddForce(new Vector2(0f, JumpForce * 200f));
+    }
+
+    public bool GroundCheck()
+    {
+        float distance = 0.1f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(transform.position, Vector2.one, 0f, Vector2.down, distance, GroundLayer);
+
+        return raycastHit.collider != null;
     }
 }

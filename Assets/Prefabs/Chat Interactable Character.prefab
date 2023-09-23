@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4336259260208228185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8908136197717158778}
+  - component: {fileID: 8982105321163863697}
+  m_Layer: 0
+  m_Name: Chat Interactable Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8908136197717158778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336259260208228185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8982105321163863697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336259260208228185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7084438d39abf40a5e59b13c8be9ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _conversation: {fileID: 0}
+  isAlreadyUsed: 0
+  onChatEnded:
+    m_PersistentCalls:
+      m_Calls: []
+  setActiveChatButton: {fileID: 11400000, guid: 81fb6d8f37105474f97b6a1631950ad8, type: 2}
+  setChatID: {fileID: 11400000, guid: 4d197145a7dca07408ce67b2f92ca2bd, type: 2}
+  onClickChatButton: {fileID: 11400000, guid: b5f4ad16a413f734bac2b3a51d81df55, type: 2}
+  setActiveController: {fileID: 11400000, guid: 70d86d666cb2b354d96f5ab57aad8c3d, type: 2}
