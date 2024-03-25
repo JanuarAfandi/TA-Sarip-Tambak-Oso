@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 861bf7edcacb98a4b833d627408599af, type: 3}
-  m_Name: '[Mission Item] Bicara dengan warga (Chapter 1.1)'
+  m_Name: '[Mission Item] Masuk ke rumah'
   m_EditorClassIdentifier: 
-  Label: Bicara dengan 3 warga
-  Callback: {fileID: 11400000, guid: 37b106da623de344aaac3b2ba5816c00, type: 2}
-  TargetAmount: 3
-  Amount: 1
+  Label: Masuk ke rumah
+  Callback: {fileID: 11400000, guid: adcccb80a19eb1e4d9bcb2fb07fd1d72, type: 2}
+  TargetAmount: 1
+  Amount: 0

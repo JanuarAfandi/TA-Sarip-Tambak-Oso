@@ -1,18 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolShootState : MonoBehaviour
+public class PatrolShootState : PatrolBaseState
 {
-    // Start is called before the first frame update
-    void Start()
+    private float _currentDelayShootTime = 0f;
+
+    public PatrolShootState(string name, FSMBase fsm) : base(name, fsm)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Enter()
     {
-        
+        base.Enter();
+
+        _currentDelayShootTime = 0f;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        CountDelayShoot();
+        CheckTarget();
+    }
+
+    private void CountDelayShoot()
+    {
+        _currentDelayShootTime += Time.deltaTime;
+        if (_currentDelayShootTime >= FSM.ShootDelay)
+        {
+            Debug.Log("Shoot");
+        }
+    }
+
+    private void CheckTarget()
+    {
+        if (FSM.CheckTarget()) return;
+
+        FSM.RedoState();
     }
 }

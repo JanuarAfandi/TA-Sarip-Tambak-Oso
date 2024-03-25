@@ -1,18 +1,44 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolIdleState : MonoBehaviour
+public class PatrolIdleState : PatrolBaseState
 {
-    // Start is called before the first frame update
-    void Start()
+    private float _currentTimeToMove = 0f;
+
+    public PatrolIdleState(string name, FSMBase fsm) : base(name, fsm)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Enter()
     {
-        
+        base.Enter();
+
+        _currentTimeToMove = 0f;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        CountIdleTime();
+        CheckTarget();
+    }
+
+    private void CountIdleTime()
+    {
+        _currentTimeToMove += Time.deltaTime;
+
+        if (_currentTimeToMove >= FSM.DelayBetweenMoving)
+        {
+            FSM.ChangeState(FSM.moveState);
+
+            return;
+        }
+    }
+
+    private void CheckTarget()
+    {
+        if (!FSM.CheckTarget()) return;
+
+        FSM.ChangeState(FSM.shootState);
     }
 }

@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f8ddf773e1fcf24591a886b35d99613, type: 3}
-  m_Name: 5. Kembali bicara dengan Ibu
+  m_Name: 6. Masuk ke rumah
   m_EditorClassIdentifier: 
-  Title: Kembali bicara dengan Ibu
+  Title: Masuk ke rumah
   Todos:
-  - {fileID: 11400000, guid: c0108c15ac490574082549ab385856ad, type: 2}
+  - {fileID: 11400000, guid: 5b6c387979d94f647bd5b44c27439cc3, type: 2}
   StartMissionCallback: {fileID: 11400000, guid: a7a4eb58916eece4997bb5d657fab21d, type: 2}
-  StartThisMissionCallback: {fileID: 11400000, guid: dfe7082bfcd7b594f8ccedf1fba62b00, type: 2}
+  StartThisMissionCallback: {fileID: 11400000, guid: 32675560aa6f8f940a730e2da7510e15, type: 2}
   OnMissionIsDone:
-  - {fileID: 11400000, guid: 22ba1702a05276c4497a441e4c732854, type: 2}
-  - {fileID: 11400000, guid: 32675560aa6f8f940a730e2da7510e15, type: 2}
+  - {fileID: 11400000, guid: 7ccfe7fa8e22f9e4aab8d9ac6bcce6f4, type: 2}
   OnMissionCanceled: []

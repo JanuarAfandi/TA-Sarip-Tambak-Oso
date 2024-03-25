@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: Bicara dengan 3 warga
   Callback: {fileID: 11400000, guid: c2458c780656e7d44b27f37a9b9e247a, type: 2}
-  TargetAmount: 1
+  TargetAmount: 3
   Amount: 1

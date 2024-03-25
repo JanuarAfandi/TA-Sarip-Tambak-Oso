@@ -1,18 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PatrolBaseState : MonoBehaviour
+public class PatrolBaseState : BaseState
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public PatrolFSM FSM { get { return (PatrolFSM)_fsm; } }
 
-    // Update is called once per frame
-    void Update()
+    public PatrolBaseState(string name, FSMBase fsm) : base(name, fsm)
     {
-        
     }
 }
