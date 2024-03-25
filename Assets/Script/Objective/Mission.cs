@@ -19,10 +19,16 @@ public class Mission : ScriptableObject
     public List<MissionItem> Todos = new List<MissionItem>();
 
     [BoxGroup("Events")]
-    public GameEventNoParam OnMissionIsDone = null;
+    public GameEventObject StartMissionCallback = null;
 
     [BoxGroup("Events")]
-    public GameEventNoParam OnMissionCanceled = null;
+    public GameEventNoParam StartThisMissionCallback = null;
+
+    [BoxGroup("Events")]
+    public List<GameEventNoParam> OnMissionIsDone = new List<GameEventNoParam>();
+
+    [BoxGroup("Events")]
+    public List<GameEventNoParam> OnMissionCanceled = new List<GameEventNoParam>();
 
     #endregion
 
@@ -44,6 +50,25 @@ public class Mission : ScriptableObject
     #endregion
 
     #region Methods
+
+    public void InitEvent()
+    {
+        if (StartThisMissionCallback != null)
+            StartThisMissionCallback.AddListener(StartMission);
+    }
+
+    public void Dispose()
+    {
+        if (StartThisMissionCallback != null)
+            StartThisMissionCallback.RemoveListener(StartMission);
+    }
+
+    private void StartMission()
+    {
+        if (StartMissionCallback == null) return;
+
+        StartMissionCallback.Invoke(this);
+    }
 
     public void Initialize()
     {
@@ -67,14 +92,21 @@ public class Mission : ScriptableObject
         
         Deinitialize();
 
-        OnMissionIsDone.Invoke();
+        foreach (var gameEvent in OnMissionIsDone)
+        {
+            Debug.Log($"Game event invoke: {gameEvent.ToString()}");
+            gameEvent.Invoke();
+        }
     }
 
     public void Cancel()
     {
         Deinitialize();
 
-        OnMissionCanceled.Invoke();
+        foreach (var gameEvent in OnMissionCanceled)
+        {
+            gameEvent.Invoke();
+        }
     }
 
     #endregion

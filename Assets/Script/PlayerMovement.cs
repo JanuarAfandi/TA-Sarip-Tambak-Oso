@@ -1,3 +1,4 @@
+using SOGameEvents;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator _animator = null;
     [SerializeField] private Rigidbody2D _rigidbody = null;
 
+    [Header("References")]
+    [SerializeField] private GameEventVector2 _movePositionEvent = null;
+
     private PlayerController _playerController = null;
     private float _moveDirection = 0f;
 
@@ -27,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
         _playerController.Land.Move.performed += Move_peformed;
         _playerController.Land.Move.canceled += Move_canceled;
         _playerController.Land.Jump.started += Jump_started;
+
+        _movePositionEvent.AddListener(MovePosition);
     }
 
     private void OnDisable()
@@ -35,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
         _playerController.Land.Move.canceled -= Move_canceled;
         _playerController.Land.Jump.started -= Jump_started;
         _playerController.Land.Disable();
+
+        _movePositionEvent.RemoveListener(MovePosition);
     }
 
     private void FixedUpdate()
@@ -80,11 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     public virtual void Jump()
     {
-        Debug.Log("Jump 1");
-
         if (!GroundCheck()) return;
-
-        Debug.Log("Jump 2");
 
         _rigidbody.AddForce(new Vector2(0f, JumpForce * 200f));
     }
@@ -95,5 +99,10 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(transform.position, Vector2.one, 0f, Vector2.down, distance, GroundLayer);
 
         return raycastHit.collider != null;
+    }
+
+    private void MovePosition(Vector2 pos)
+    {
+        transform.position = pos;
     }
 }

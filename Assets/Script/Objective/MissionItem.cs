@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using SOGameEvents;
 using UnityEngine;
 
@@ -8,7 +9,7 @@ public class MissionItem : ScriptableObject
     public GameEventNoParam Callback = null;
     public int TargetAmount = 1;
     
-    [HideInInspector]
+    [ReadOnly]
     public int Amount = 0;
 
     public bool IsDone

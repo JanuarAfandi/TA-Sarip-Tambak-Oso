@@ -11,9 +11,12 @@ public class UIManager : MonoBehaviour
     public Button leftButton;
     public Button rightButton;
     public Button jumpButton;
+    public Button interactButton;
 
     [BoxGroup("Events", Order = 100)]
     public GameEventBool setActiveChatButtonUI = null;
+    [BoxGroup("Events", Order = 100)]
+    public GameEventBool setActiveInteractButton = null;
     [BoxGroup("Events", Order = 100)]
     public GameEventString setCurrentChatID = null;
     [BoxGroup("Events", Order = 100)]
@@ -37,6 +40,7 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         setActiveChatButtonUI.AddListener(chatButton.gameObject.SetActive);
+        setActiveInteractButton.AddListener(interactButton.gameObject.SetActive);
         setActiveController.AddListener(SetActiveController);
         setCurrentChatID.AddListener(SetChatID);
     }
@@ -44,6 +48,7 @@ public class UIManager : MonoBehaviour
     private void OnDisable()
     {
         setActiveChatButtonUI.RemoveListener(chatButton.gameObject.SetActive);
+        setActiveInteractButton.RemoveListener(interactButton.gameObject.SetActive);
         setActiveController.RemoveListener(SetActiveController);
         setCurrentChatID.RemoveListener(SetChatID);
     }
