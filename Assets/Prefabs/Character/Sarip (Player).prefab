@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6389002464055708673}
   - component: {fileID: 6389002464055708672}
   - component: {fileID: 1246557402}
+  - component: {fileID: 5320963392848567041}
   m_Layer: 7
   m_Name: Sarip (Player)
   m_TagString: Untagged
@@ -90,6 +91,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactEvent: {fileID: 11400000, guid: b3b98338fc9afa44ca3bd3de49ff7022, type: 2}
+--- !u!114 &5320963392848567041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389002464055708687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4662e493f27be245ac5c16883e0cdb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody: {fileID: 6389002464055708673}
+  _collider: {fileID: 1546776565585232999}
+  _graphics: {fileID: 6389002465041648035}
+  _hideEvent: {fileID: 11400000, guid: 003928c29c01e6242a94db6dbce678a2, type: 2}
+  _setActiveControllerButtonEvent: {fileID: 11400000, guid: 70d86d666cb2b354d96f5ab57aad8c3d, type: 2}
+  _setActiveInteractButtonEvent: {fileID: 11400000, guid: 0a360d829271a5348ae49305e74bbb1a, type: 2}
+  _interactEvent: {fileID: 11400000, guid: b3b98338fc9afa44ca3bd3de49ff7022, type: 2}
+  _isHidden: 0
 --- !u!1 &6389002465041648035
 GameObject:
   m_ObjectHideFlags: 0

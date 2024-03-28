@@ -51,11 +51,11 @@ public class ChaseChasingState : ChaseBaseState
 
     private void Move()
     {
-        if (!_isMoving)
+        if (!_isMoving || FSM.Target == null)
         {
             FSM.Movement.Move(0);
             return;
-        }  
+        }
 
         Vector2 direction = (Vector2)FSM.Target.position - (Vector2)FSM.transform.position;
 

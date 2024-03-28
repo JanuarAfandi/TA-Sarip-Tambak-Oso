@@ -56,16 +56,12 @@ PrefabInstance:
       value: Tentara (Player)
       objectReference: {fileID: 0}
     - target: {fileID: 6389002465041648036, guid: a7860de08b85a8445a0feb24341b5834, type: 3}
-      propertyPath: m_Color.b
-      value: 0.11681201
-      objectReference: {fileID: 0}
-    - target: {fileID: 6389002465041648036, guid: a7860de08b85a8445a0feb24341b5834, type: 3}
-      propertyPath: m_Color.g
-      value: 0.990566
-      objectReference: {fileID: 0}
-    - target: {fileID: 6389002465041648036, guid: a7860de08b85a8445a0feb24341b5834, type: 3}
-      propertyPath: m_Color.r
-      value: 0.2906822
-      objectReference: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d7b5ebb116ac3646b3bd57dc0846b11, type: 3}
+    - target: {fileID: 6389002465041648037, guid: a7860de08b85a8445a0feb24341b5834, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6f45629a398b0a543824e65301926003, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7860de08b85a8445a0feb24341b5834, type: 3}
