@@ -55,7 +55,7 @@ public class HideManager : MonoBehaviour
         _interactEvent.AddListener(Unhide);
 
         _rigidbody.isKinematic = true;
-        _collider.isTrigger = true;
+        _collider.enabled = false;
         _graphics.SetActive(false);
 
         _setActiveInteractButtonEvent.Invoke(true);
@@ -69,7 +69,7 @@ public class HideManager : MonoBehaviour
         _interactEvent.RemoveListener(Unhide);
 
         _rigidbody.isKinematic = false;
-        _collider.isTrigger = false;
+        _collider.enabled = true;
         _graphics.SetActive(true);
 
         _setActiveInteractButtonEvent.Invoke(false);

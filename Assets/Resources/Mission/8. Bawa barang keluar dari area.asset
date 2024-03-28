@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ddf773e1fcf24591a886b35d99613, type: 3}
+  m_Name: 8. Bawa barang keluar dari area
+  m_EditorClassIdentifier: 
+  Title: Bawa barang keluar dari area
+  Todos:
+  - {fileID: 11400000, guid: e6efcafef00e389498523c2414ed363f, type: 2}
+  StartMissionCallback: {fileID: 11400000, guid: a7a4eb58916eece4997bb5d657fab21d, type: 2}
+  StartThisMissionCallback: {fileID: 11400000, guid: 310a6c0f537ec7e49b7fa40e3e401665, type: 2}
+  OnMissionIsDone:
+  - {fileID: 11400000, guid: a38b94b26d962634a88eadb2cbc05157, type: 2}
+  OnMissionCanceled: []

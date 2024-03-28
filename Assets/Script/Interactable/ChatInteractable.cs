@@ -1,6 +1,7 @@
 using DialogueEditor;
 using Sirenix.OdinInspector;
 using SOGameEvents;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class ChatInteractable : Interactable
@@ -60,6 +61,12 @@ public class ChatInteractable : Interactable
     private void ShowDialogue(string id)
     {
         if (id != GetInstanceID().ToString()) return;
+        if (ConversationManager.Instance == null)
+        {
+            Debug.LogWarning("Conversation Manager not found!");
+            return;
+        }
+        if (_conversation == null) return;
 
         setActiveController.Invoke(false);
         setActiveChatButton.Invoke(false);

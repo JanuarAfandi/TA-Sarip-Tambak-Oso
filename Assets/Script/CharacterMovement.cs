@@ -25,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
         }
 
         // Flip character graphics based on direction
+        Vector3 euler = transform.eulerAngles;
         if (direction == 1)
             transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.eulerAngles.x, 0, transform.rotation.eulerAngles.z));
         else if (direction == -1)

@@ -30,8 +30,6 @@ public class Teleporter : Interactable
     {
         base.Interact();
 
-        Debug.Log("Interact");
-
         movePositionPlayerEvent.Invoke(targetPosition.position);
     }
 }

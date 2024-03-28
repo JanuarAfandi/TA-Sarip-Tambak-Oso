@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 861bf7edcacb98a4b833d627408599af, type: 3}
   m_Name: '[Mission Item] Bicara dengan warga sekitar (Chapter 1.2)'
   m_EditorClassIdentifier: 
-  Label: Bicara dengan 3 warga
+  Label: Bicara dengan warga sekitar
   Callback: {fileID: 11400000, guid: c2458c780656e7d44b27f37a9b9e247a, type: 2}
-  TargetAmount: 3
-  Amount: 1
+  TargetAmount: 5
+  Amount: 0

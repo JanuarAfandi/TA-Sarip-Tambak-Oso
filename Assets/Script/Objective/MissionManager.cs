@@ -54,8 +54,6 @@ public class MissionManager : SingletonDontDestroy<MissionManager>
 
     private void StartMission(object missionObj)
     {
-        Debug.Log("Test");
-
         if (missionObj is not Mission) return;
 
         if (_currentMission != null)

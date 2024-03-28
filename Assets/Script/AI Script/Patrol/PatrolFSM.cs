@@ -1,4 +1,5 @@
 using Sirenix.OdinInspector;
+using SOGameEvents;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,7 +33,11 @@ public class PatrolFSM : FSMBase
     [SerializeField]
     private CharacterMovement _movement = null;
 
-    [BoxGroup("Properties")]
+    [BoxGroup("Events")]
+    [SerializeField]
+    private GameEventNoParam _onShootEvent = null;
+
+    [BoxGroup("Debug")]
     [SerializeField, ReadOnly]
     private int _currentPointIndex = 0;
 
@@ -53,6 +58,7 @@ public class PatrolFSM : FSMBase
     public float DetectRange { get { return _detectRange;} }
     public CharacterMovement Movement { get { return _movement; } }
     public int CurrentPointIndex { get { return _currentPointIndex; } set { _currentPointIndex = value; } }
+    public GameEventNoParam OnShootEvent { get { return _onShootEvent; } }
 
     #endregion
 
@@ -98,7 +104,10 @@ public class PatrolFSM : FSMBase
     public bool CheckTarget()
     {
         RaycastHit2D[] hits = new RaycastHit2D[10];
-        return Physics2D.RaycastNonAlloc(transform.position + new Vector3(0, 1f, 0), transform.right, hits, DetectRange, _targetLayer) > 0;
+        int count = Physics2D.RaycastNonAlloc(transform.position + new Vector3(0, 1f, 0), transform.right, hits, DetectRange, _targetLayer);
+        if (count > 0)
+            Debug.Log(hits[0].transform.gameObject.name);
+        return count > 0;
     }
 
     #endregion

@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/New Scenes/Chapter 1.3.unity
     guid: 27a9b9cffeb81d84b9d529331b16a64c
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.1.unity
+    guid: ab7b29d9270b1214d85b738d259ff99e
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.2.unity
+    guid: e68fe2bd50b47b84a98fe675624bb464
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.3.unity
+    guid: 67c45d37b1f98964f9bf3706a3329d59
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.4.unity
+    guid: 6e63fff31bf252d4f906c48f2a755b2c
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.5.unity
+    guid: 436e50076b79cc841a0ee9b17e0a05b9
   m_configObjects: {}

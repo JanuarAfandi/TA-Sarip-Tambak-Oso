@@ -26,10 +26,11 @@ public class PatrolShootState : PatrolBaseState
     private void CountDelayShoot()
     {
         _currentDelayShootTime += Time.deltaTime;
-        if (_currentDelayShootTime >= FSM.ShootDelay)
-        {
-            Debug.Log("Shoot");
-        }
+
+        if (_currentDelayShootTime < FSM.ShootDelay) return;
+
+        if (FSM.OnShootEvent != null)
+            FSM.OnShootEvent.Invoke();
     }
 
     private void CheckTarget()
