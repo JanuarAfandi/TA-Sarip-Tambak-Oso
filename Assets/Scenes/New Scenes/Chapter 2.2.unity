@@ -563,6 +563,11 @@ GameObject:
   - component: {fileID: 660237844}
   - component: {fileID: 660237846}
   - component: {fileID: 660237845}
+  - component: {fileID: 660237851}
+  - component: {fileID: 660237850}
+  - component: {fileID: 660237849}
+  - component: {fileID: 660237848}
+  - component: {fileID: 660237847}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -602,7 +607,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237846
 MonoBehaviour:
@@ -621,7 +626,102 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &660237847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660237843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 6
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &660237848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660237843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 5
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &660237849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660237843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 4
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &660237850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660237843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &660237851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660237843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 2
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
   Audio: {fileID: 0}
 --- !u!1001 &679589100
 PrefabInstance:
@@ -781,8 +881,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":115,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Test","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pimpinan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":114,"yPos":138},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Test","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 7
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":288.6,"yPos":138.000015},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    Pagi Pak","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":290.6,"yPos":254.000015},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi.
+    Ada perlu apa kamu?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":363.8},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    ingin melapor bahwa ada kejadian kurang mengenakkan dari warga kita","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":474.799927},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
+    yang sebenernya kamu ingin sampaikan kepadaku?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":597.7999},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    Pak, warga kita mengatakan bahwa sebagian dari barang dan harta mereka sudah
+    menghilang dan kemungkinan dicuri oleh seseorang. Tetapi tidak ada yang tahu
+    siapa pelaku dibalik pencurian tersebut.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":290.2,"yPos":715.7999},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    begitu, besok adakan patroli yang lebih ketat. Jika kalian menemukan pencurinya
+    segera tangkap dan penjarakan.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":287.2,"yPos":826.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    Pak! akan kami laksanakan.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -790,6 +907,11 @@ MonoBehaviour:
   NodeSerializedDataList:
   - {fileID: 660237846}
   - {fileID: 660237845}
+  - {fileID: 660237851}
+  - {fileID: 660237850}
+  - {fileID: 660237849}
+  - {fileID: 660237848}
+  - {fileID: 660237847}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -1576,7 +1698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1748295, y: -1.63, z: -10}
+  m_LocalPosition: {x: -1.153316, y: -1.63, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1845,8 +1967,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4458610259677566551, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 4458610259677566551, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -630444391720134943, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 4458610259677566551, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6030069602245632619, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6853964273657188039, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 6853964273657188039, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -630444391720134943, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 6853964273657188039, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7309550487038652921, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
