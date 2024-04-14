@@ -29,8 +29,9 @@ public class PatrolShootState : PatrolBaseState
 
         if (_currentDelayShootTime < FSM.ShootDelay) return;
 
-        if (FSM.OnShootEvent != null)
-            FSM.OnShootEvent.Invoke();
+        _currentDelayShootTime = 0f;
+
+        FSM.Shoot();
     }
 
     private void CheckTarget()

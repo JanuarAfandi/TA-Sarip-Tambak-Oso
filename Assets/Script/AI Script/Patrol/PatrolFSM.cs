@@ -1,5 +1,6 @@
 using Sirenix.OdinInspector;
 using SOGameEvents;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,9 +30,25 @@ public class PatrolFSM : FSMBase
     [SerializeField]
     private LayerMask _targetLayer = 0;
 
+    [BoxGroup("Properties")]
+    [SerializeField]
+    private Bullet _bullet = null;
+
+    [BoxGroup("Properties")]
+    [SerializeField]
+    private float _bulletSpeed = 1f;
+
+    [BoxGroup("Properties")]
+    [SerializeField]
+    private Transform _bulletSpawn = null;
+
     [BoxGroup("References")]
     [SerializeField]
     private CharacterMovement _movement = null;
+
+    [BoxGroup("References")]
+    [SerializeField]
+    private Animator _animator = null;
 
     [BoxGroup("Events")]
     [SerializeField]
@@ -59,6 +76,10 @@ public class PatrolFSM : FSMBase
     public CharacterMovement Movement { get { return _movement; } }
     public int CurrentPointIndex { get { return _currentPointIndex; } set { _currentPointIndex = value; } }
     public GameEventNoParam OnShootEvent { get { return _onShootEvent; } }
+    public Bullet Bullet { get { return _bullet; } }
+    public Transform BulletSpawn { get { return _bulletSpawn; } }
+    public float BulletSpeed { get { return _bulletSpeed; } }
+    public Animator Animator { get { return _animator; } }
 
     #endregion
 
@@ -105,9 +126,26 @@ public class PatrolFSM : FSMBase
     {
         RaycastHit2D[] hits = new RaycastHit2D[10];
         int count = Physics2D.RaycastNonAlloc(transform.position + new Vector3(0, 1f, 0), transform.right, hits, DetectRange, _targetLayer);
-        if (count > 0)
-            Debug.Log(hits[0].transform.gameObject.name);
+
         return count > 0;
+    }
+
+    public void Shoot()
+    {
+        StartCoroutine(OnShoot());
+    }
+
+    private IEnumerator OnShoot()
+    {
+        _animator.SetTrigger("Shoot");
+
+        yield return new WaitForSeconds(0.5f);
+
+        Bullet spawnedBullet = Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+
+        spawnedBullet.target = _targetLayer;
+        spawnedBullet.OnTargetShooted.AddListener(OnShootEvent.Invoke);
+        spawnedBullet.Shoot(BulletSpeed);
     }
 
     #endregion

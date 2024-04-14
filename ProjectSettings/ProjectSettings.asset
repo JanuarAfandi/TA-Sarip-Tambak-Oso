@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 23
+  serializedVersion: 24
   productGUID: 6fd475f87176ce142a35b9c8e206c5ec
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -518,7 +518,6 @@ PlayerSettings:
   switchReleaseVersion: 0
   switchDisplayVersion: 1.0.0
   switchStartupUserAccount: 0
-  switchTouchScreenUsage: 0
   switchSupportedLanguagesMask: 0
   switchLogoType: 0
   switchApplicationErrorCodeCategory: 
@@ -560,6 +559,7 @@ PlayerSettings:
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
+  switchEnableTouchScreen: 1
   switchSocketConfigEnabled: 0
   switchTcpInitialSendBufferSize: 32
   switchTcpInitialReceiveBufferSize: 64
@@ -674,10 +674,19 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    Standalone: CROSS_PLATFORM_INPUT;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1
-    Windows Store Apps: MOBILE_INPUT
-    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_VISUAL_SCRIPTING
+    EmbeddedLinux: UNITY_VISUAL_SCRIPTING
+    LinuxHeadlessSimulation: UNITY_VISUAL_SCRIPTING
+    Nintendo Switch: UNITY_VISUAL_SCRIPTING
+    PS4: UNITY_VISUAL_SCRIPTING
+    Server: UNITY_VISUAL_SCRIPTING
+    Stadia: UNITY_VISUAL_SCRIPTING
+    Standalone: CROSS_PLATFORM_INPUT;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;UNITY_VISUAL_SCRIPTING
+    WebGL: UNITY_VISUAL_SCRIPTING
+    Windows Store Apps: MOBILE_INPUT;UNITY_VISUAL_SCRIPTING
+    XboxOne: UNITY_VISUAL_SCRIPTING
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_VISUAL_SCRIPTING
+    tvOS: UNITY_VISUAL_SCRIPTING
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
