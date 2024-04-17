@@ -493,19 +493,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":100.600006,"yPos":-47.9999847},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    pagi, Bu Risma","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":100.600006,"yPos":78.0000153},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":2,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    pagi, Bu Risma","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":2,"yPos":148},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
     pagi, Sarip","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":98.1000061,"yPos":194},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Bu
-    Risma sedang apa? Sepertinya Ibu tampak resah","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":98.1000061,"yPos":312},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":-0.5,"yPos":264},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Bu
+    Risma sedang apa? Sepertinya Ibu tampak resah","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":-0.5,"yPos":382},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
     nih Rip. Ibu lagi menunggu suami Ibu dari kemarin belum pulang juga. Katanya
     sih sedang berjaga di pos ronda. Tapi harusnya pagi ini dia sudah pulang.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":348.1,"yPos":-47.9999847},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
-    setelah ini suami Ibu pasti pulang. Tunggu saja bu.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":342.1,"yPos":83.0000153},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":249.5,"yPos":22},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
+    setelah ini suami Ibu pasti pulang. Tunggu saja bu.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":243.5,"yPos":153},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
     kamu benar Rip. Mungkin Ibu harus menunggu lebih lama lagi. Kalau begitu Ibu
     mau masuk rumah dulu. Ibu mau menyiapkan makanan untuknya.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":351.1,"yPos":194},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
-    kalau begitu. Sarip lanjut keliling desa lagi ya Bu.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":350.1,"yPos":311},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":252.5,"yPos":264},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    kalau begitu. Sarip lanjut keliling desa lagi ya Bu.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":251.5,"yPos":381},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
     Rip. Hati-hati dijalan nak.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
     Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -1965,7 +1965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267274210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2518158, y: -1.9985, z: -10}
+  m_LocalPosition: {x: -2.2505777, y: -1.99849, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -383,7 +383,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8666703494371925228}
   - component: {fileID: 210676243961142804}
-  - component: {fileID: 3594154600996790781}
   m_Layer: 0
   m_Name: Batas Kanan
   m_TagString: Untagged
@@ -432,34 +431,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.47}
   m_EdgeRadius: 0
---- !u!114 &3594154600996790781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2750278252889387389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbc123b33e1ae8444b414070d668ceae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _eventToListen:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2750278252889387389}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _listener: {fileID: 11400000, guid: a4cf654a8690d214285b67f37520e597, type: 2}
 --- !u!1 &2942537241073767699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +2985,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6378409908998994665}
   - component: {fileID: 8515329450885958904}
-  - component: {fileID: 311748213249007368}
   m_Layer: 0
   m_Name: Batas Kiri
   m_TagString: Untagged
@@ -3063,34 +3033,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.47}
   m_EdgeRadius: 0
---- !u!114 &311748213249007368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9178919614069384245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbc123b33e1ae8444b414070d668ceae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _eventToListen:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9178919614069384245}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _listener: {fileID: 11400000, guid: a4cf654a8690d214285b67f37520e597, type: 2}
 --- !u!1001 &2255407837584446809
 PrefabInstance:
   m_ObjectHideFlags: 0

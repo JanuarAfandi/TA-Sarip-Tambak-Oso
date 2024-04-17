@@ -2,7 +2,9 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using SOGameEvents;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class LevelManager : SerializedMonoBehaviour
 {
@@ -49,11 +51,17 @@ public class LevelManager : SerializedMonoBehaviour
 
     private void Load()
     {
-        foreach (var key in LevelKeys.Keys)
-        {
-            if (!ES3.KeyExists(key)) return;
+        List<string> keys = LevelKeys.Keys.ToList();
 
-            LevelKeys[key] = ES3.Load<bool>(key);
+        for (int i = 0; i < keys.Count; ++i)
+        {
+            Debug.Log(keys[i]);
+
+            if (!ES3.KeyExists(keys[i])) continue;
+
+            Debug.Log($"Load key: {keys[i]}");
+
+            LevelKeys[keys[i]] = ES3.Load<bool>(keys[i]);
         }
     }
 }

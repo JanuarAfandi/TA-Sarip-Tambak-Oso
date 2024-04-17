@@ -28,21 +28,19 @@ public class MissionManager : SingletonDontDestroy<MissionManager>
 
     #region Mono
 
-    protected override void Awake()
-    {
-        base.Awake();
-
-        _startMissionCallback.AddListener(StartMission);
-        _cancelMissionCallback.AddListener(CancelMission);
-    }
-
     private void Start()
     {
         if (_currentMission != null)
             StartMission(_currentMission);
     }
 
-    private void OnDestroy()
+    private void OnEnable()
+    {
+        _startMissionCallback.AddListener(StartMission);
+        _cancelMissionCallback.AddListener(CancelMission);
+    }
+
+    private void OnDisable()
     {
         _startMissionCallback.RemoveListener(StartMission);
         _cancelMissionCallback?.RemoveListener(CancelMission);
@@ -63,7 +61,7 @@ public class MissionManager : SingletonDontDestroy<MissionManager>
 
         _currentMission = (Mission)missionObj;
 
-        Debug.Log($"Start new mission {_currentMission.Title}");
+        Debug.Log($"Start new mission {_currentMission.Title}", gameObject);
 
         _currentMission.Initialize();
 
@@ -78,6 +76,8 @@ public class MissionManager : SingletonDontDestroy<MissionManager>
     private void CancelMission()
     {
         if (_currentMission == null) return;
+
+        Debug.Log($"Cancel mission {_currentMission.name}");
 
         _currentMission.Cancel();
 

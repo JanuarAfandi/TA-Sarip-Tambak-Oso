@@ -681,7 +681,7 @@ PrefabInstance:
     - target: {fileID: 5316241126942754074, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
       propertyPath: targetPosition
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2097690081}
     - target: {fileID: 5316241126942754075, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
       propertyPath: m_Name
       value: Teleporter (3)
@@ -1099,6 +1099,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338054351}
   m_CullTransparentMesh: 1
+--- !u!1001 &345380469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7482042465999517884, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_Name
+      value: Level Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.1405187
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.1477523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.124965936
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517886, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482042465999517887, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 7482042465999517887, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba4d66da476f7e84f8ed772884af2182, type: 3}
 --- !u!1 &401429057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,7 +2656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Chapter 3.1a
+  sceneName: MainMenu
 --- !u!1 &844830888
 GameObject:
   m_ObjectHideFlags: 3
@@ -2843,8 +2904,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1785469690}
   m_HandleRect: {fileID: 1785469689}
   m_Direction: 0
-  m_Value: -0.00000006357829
-  m_Size: 0.2
+  m_Value: -0.00000006357828
+  m_Size: 0.19999997
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4215,7 +4276,7 @@ PrefabInstance:
     - target: {fileID: 5316241126942754074, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
       propertyPath: targetPosition
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2145401907}
     - target: {fileID: 5316241126942754075, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
       propertyPath: m_Name
       value: Teleporter (1)
@@ -5954,6 +6015,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092732007}
   m_CullTransparentMesh: 1
+--- !u!4 &2097690081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5316241126942754072, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
+  m_PrefabInstance: {fileID: 1405518178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2145401907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5316241126942754072, guid: b6d64e9b8a6e0334ab2484173cc1b9e3, type: 3}
+  m_PrefabInstance: {fileID: 192415908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3153418226986730948
 PrefabInstance:
   m_ObjectHideFlags: 0
