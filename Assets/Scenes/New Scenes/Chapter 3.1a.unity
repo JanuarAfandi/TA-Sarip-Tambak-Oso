@@ -3393,7 +3393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Chapter 2.2
+  sceneName: Chapter 3.2
 --- !u!1 &844830888
 GameObject:
   m_ObjectHideFlags: 3
@@ -3641,8 +3641,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1785469690}
   m_HandleRect: {fileID: 1785469689}
   m_Direction: 0
-  m_Value: -0.0000000635783
-  m_Size: 0.20000002
+  m_Value: 0
+  m_Size: 0.2
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5381,7 +5381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5948265, y: -0.61999, z: -10}
+  m_LocalPosition: {x: -2.5806649, y: -0.61999, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []

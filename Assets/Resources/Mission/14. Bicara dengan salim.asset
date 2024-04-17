@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ddf773e1fcf24591a886b35d99613, type: 3}
+  m_Name: 14. Bicara dengan salim
+  m_EditorClassIdentifier: 
+  Title: Bicara degan salim
+  Todos:
+  - {fileID: 11400000, guid: 8a22e9e498c47bb45a3a7890e23014b9, type: 2}
+  StartMissionCallback: {fileID: 11400000, guid: a7a4eb58916eece4997bb5d657fab21d, type: 2}
+  StartThisMissionCallback: {fileID: 11400000, guid: 28107e6d00663fe4c9c9f1bdf5297e15, type: 2}
+  OnMissionIsDone:
+  - {fileID: 11400000, guid: 5d5c42114ff57ad4ca9477484daf82c3, type: 2}
+  OnMissionCanceled: []

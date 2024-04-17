@@ -55,13 +55,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1143469079351540981, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2255626085960438363, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
       propertyPath: m_Name
-      value: Ibu
+      value: Ibu (Player)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255626085960438363, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2575702079581345754, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455764160185453890, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6232194876226826131, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
       propertyPath: _conversation
@@ -208,39 +220,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1455550632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5645133355486349690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9f984a6810f593418ce8e03777f7579, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 5
-  JumpForce: 3
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  _animator: {fileID: 7779353271816560818}
-  _rigidbody: {fileID: 1455550633}
-  _movePositionEvent: {fileID: 11400000, guid: eceb24653d60b3f4f9006334c621a608, type: 2}
---- !u!114 &1455550631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5645133355486349690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d3c54805f86b0e49ba4bcf19ee6c9e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactEvent: {fileID: 11400000, guid: b3b98338fc9afa44ca3bd3de49ff7022, type: 2}
 --- !u!114 &1455550630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +240,39 @@ MonoBehaviour:
   _setActiveInteractButtonEvent: {fileID: 11400000, guid: 0a360d829271a5348ae49305e74bbb1a, type: 2}
   _interactEvent: {fileID: 11400000, guid: b3b98338fc9afa44ca3bd3de49ff7022, type: 2}
   _isHidden: 0
+--- !u!114 &1455550631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5645133355486349690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3c54805f86b0e49ba4bcf19ee6c9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactEvent: {fileID: 11400000, guid: b3b98338fc9afa44ca3bd3de49ff7022, type: 2}
+--- !u!114 &1455550632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5645133355486349690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f984a6810f593418ce8e03777f7579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 10
+  JumpForce: 3
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  _animator: {fileID: 7779353271816560818}
+  _rigidbody: {fileID: 1455550633}
+  _movePositionEvent: {fileID: 11400000, guid: eceb24653d60b3f4f9006334c621a608, type: 2}
 --- !u!95 &7779353271816560818 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4246838977905687443, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}

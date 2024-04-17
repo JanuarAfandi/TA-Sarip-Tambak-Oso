@@ -1269,6 +1269,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 71e4b011757166148a990f03d1281979, type: 2}
+        m_TargetAssemblyTypeName: SOGameEvents.GameEventNoParam, Assembly-CSharp
+        m_MethodName: Invoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTriggerStay:
     m_PersistentCalls:
       m_Calls: []
@@ -2521,6 +2533,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: f45236156cbc2c24f9a81d5ea2daa968, type: 2}
+        m_TargetAssemblyTypeName: SOGameEvents.GameEvent`1[[System.String, mscorlib
+        m_MethodName: Invoke
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3a
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &827596254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,7 +2595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: Chapter 3.1a
 --- !u!1 &844830888
 GameObject:
   m_ObjectHideFlags: 3
@@ -2819,7 +2843,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1785469690}
   m_HandleRect: {fileID: 1785469689}
   m_Direction: 0
-  m_Value: 0
+  m_Value: -0.00000006357829
   m_Size: 0.2
   m_NumberOfSteps: 0
   m_OnValueChanged:
