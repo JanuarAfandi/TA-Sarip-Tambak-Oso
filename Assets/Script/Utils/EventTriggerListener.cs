@@ -19,11 +19,15 @@ public class EventTriggerListener : MonoBehaviour
 
     private void OnEnable()
     {
+        if (_listener == null) return;
+
         _listener.AddListener(OnListen);
     }
 
     private void OnDisable()
     {
+        if (_listener == null) return;
+
         _listener.RemoveListener(OnListen);
     }
 
