@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Chapter 1.2
+  sceneName: Chapter 2.1
 --- !u!114 &364593942
 MonoBehaviour:
   m_ObjectHideFlags: 0
