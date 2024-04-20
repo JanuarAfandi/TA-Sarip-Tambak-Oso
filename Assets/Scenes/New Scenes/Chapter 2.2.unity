@@ -1698,7 +1698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1450534, y: -1.63, z: -10}
+  m_LocalPosition: {x: -1.1634645, y: -1.63, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1967,6 +1967,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3283598005383615264, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341485740083550407, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4458610259677566551, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -2083,6 +2091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7858410434742208919, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
 --- !u!224 &1714391464 stripped
@@ -2188,6 +2200,63 @@ PrefabInstance:
     - {fileID: 6367832809678785423, guid: 02e6a509c6d461b40b8c675c16c87fc1, type: 3}
     - {fileID: 3970323542206612046, guid: 02e6a509c6d461b40b8c675c16c87fc1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 02e6a509c6d461b40b8c675c16c87fc1, type: 3}
+--- !u!1001 &1903369247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 388.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 218.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755875, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645619685848755876, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
+      propertyPath: m_Name
+      value: Background Music (Tantangan)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c818dd87a243ee540b92b0e1f0057a26, type: 3}
 --- !u!1 &1907098652
 GameObject:
   m_ObjectHideFlags: 0
