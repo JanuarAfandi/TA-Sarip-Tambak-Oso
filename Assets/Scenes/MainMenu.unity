@@ -6099,7 +6099,7 @@ GameObject:
   - component: {fileID: 1689278049}
   - component: {fileID: 1689278048}
   - component: {fileID: 1689278047}
-  - component: {fileID: 1689278050}
+  - component: {fileID: 1689278052}
   - component: {fileID: 1689278051}
   m_Layer: 0
   m_Name: ch3
@@ -6172,7 +6172,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1689278048}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1689278052}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1689278048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6211,18 +6223,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689278045}
   m_CullTransparentMesh: 1
---- !u!114 &1689278050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689278045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50280a944c124634fa3361eaaab19eaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1689278051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6240,6 +6240,19 @@ MonoBehaviour:
   button: {fileID: 1689278047}
   unlockColor: {r: 1, g: 1, b: 1, a: 1}
   lockColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1689278052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689278045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Chapter 3.1a
 --- !u!1 &1710838611
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,7 +6563,7 @@ GameObject:
   - component: {fileID: 1827388500}
   - component: {fileID: 1827388499}
   - component: {fileID: 1827388498}
-  - component: {fileID: 1827388497}
+  - component: {fileID: 1827388502}
   - component: {fileID: 1827388501}
   m_Layer: 0
   m_Name: ch3 (1)
@@ -6580,18 +6593,6 @@ RectTransform:
   m_AnchoredPosition: {x: 407.87006, y: -130}
   m_SizeDelta: {x: 335.7346, y: 223.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1827388497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827388495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50280a944c124634fa3361eaaab19eaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1827388498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6635,7 +6636,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1827388499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1827388502}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1827388499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6691,6 +6704,19 @@ MonoBehaviour:
   button: {fileID: 1827388498}
   unlockColor: {r: 1, g: 1, b: 1, a: 1}
   lockColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1827388502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827388495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d43819735b63649900409811499913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Chapter 3.2
 --- !u!1 &1917099667
 GameObject:
   m_ObjectHideFlags: 0
