@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public float JumpForce = 10f;
     public LayerMask GroundLayer;
 
+    [Header("Audio")]
+    public AudioSource walkAudio = null;
+
     [Header("References")]
     //[SerializeField] private Transform _graphics = null;
     [SerializeField] private Animator _animator = null;
@@ -68,10 +71,14 @@ public class PlayerMovement : MonoBehaviour
     public virtual void Move(float direction)
     {
         _animator.SetBool("Run", direction != 0);
+        
+        if (!walkAudio.isPlaying)
+            walkAudio.Play();
 
         if (direction == 0)
         {
             _rigidbody.velocity = new Vector2(0f, _rigidbody.velocity.y);
+            walkAudio.Stop();
 
             return;
         }

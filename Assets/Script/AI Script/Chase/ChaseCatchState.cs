@@ -5,6 +5,7 @@ public class ChaseCatchState : ChaseBaseState
     #region Variables
 
     private float _timeToCatch = 0f;
+    private bool _alreadyCatch = false;
 
     #endregion
 
@@ -34,6 +35,8 @@ public class ChaseCatchState : ChaseBaseState
 
     private void CheckTarget()
     {
+        if (_alreadyCatch) return;
+
         if (FSM.Target == null)
         {
             FSM.RedoState();
@@ -53,6 +56,8 @@ public class ChaseCatchState : ChaseBaseState
 
         if (FSM.OnCatchEvent != null)
             FSM.OnCatchEvent.Invoke();
+
+        _alreadyCatch = true;
     }
 
     #endregion
