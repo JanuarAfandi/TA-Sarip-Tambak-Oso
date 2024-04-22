@@ -882,22 +882,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 7
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":288.6,"yPos":138.000015},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":229.800018,"yPos":-382},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
     Pagi Pak","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":290.6,"yPos":254.000015},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi.
-    Ada perlu apa kamu?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":363.8},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
-    ingin melapor bahwa ada kejadian kurang mengenakkan dari warga kita","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":474.799927},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
-    yang sebenernya kamu ingin sampaikan kepadaku?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":293.2,"yPos":597.7999},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
-    Pak, warga kita mengatakan bahwa sebagian dari barang dan harta mereka sudah
-    menghilang dan kemungkinan dicuri oleh seseorang. Tetapi tidak ada yang tahu
-    siapa pelaku dibalik pencurian tersebut.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":290.2,"yPos":715.7999},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":231.800018,"yPos":-265.999969},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi.
+    Ada perlu apa kemari?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":-156.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    ingin melapor bahwa ada kejadian yang tidak menyenangkan.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":-45.2000427},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
+    yang sebenarnya kamu ingin sampaikan?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":77.79994},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    Pak, sebagian dari ahrta dan bahan makanan kita sudah menghilang dan kemungkinan
+    dicuri oleh seseorang. Tetapi tidak ada yang tahu siapa pelaku dibalik pencurian
+    tersebut.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":231.400024,"yPos":195.799927},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
     begitu, besok adakan patroli yang lebih ketat. Jika kalian menemukan pencurinya
     segera tangkap dan penjarakan.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":287.2,"yPos":826.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":228.400024,"yPos":306.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
     Pak! akan kami laksanakan.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
     Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
