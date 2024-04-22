@@ -840,6 +840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ibu NPC 2
       objectReference: {fileID: 0}
+    - target: {fileID: 928847651209276757, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5435453849387639158, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2195,6 +2199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ibu NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 928847651209276757, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5435453849387639158, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2296,6 +2304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warga 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5068200443373778925, guid: 3d9230c2aeb81ec469f950fcf83f9e3d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d9230c2aeb81ec469f950fcf83f9e3d, type: 3}
 --- !u!1001 &1816366302816405843
@@ -2308,6 +2320,10 @@ PrefabInstance:
     - target: {fileID: 563394855510527211, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_Name
       value: Warga 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 563394855510527211, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_RootOrder
@@ -2409,6 +2425,10 @@ PrefabInstance:
     - target: {fileID: 5020402178495844575, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
       propertyPath: m_Name
       value: Warga 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020402178495844575, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
