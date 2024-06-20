@@ -9,15 +9,23 @@ public class MissionEventInitializer : SingletonDontDestroy<MissionEventInitiali
     [SerializeField, ReadOnly]
     private List<Mission> _missions = new List<Mission>();
 
-    void OnEnable()
+    protected override void Awake()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        base.Awake();
+
+        Dispose();
+        Init();
     }
 
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    //void OnEnable()
+    //{
+    //    SceneManager.sceneLoaded += OnSceneLoaded;
+    //}
+
+    //void OnDisable()
+    //{
+    //    SceneManager.sceneLoaded -= OnSceneLoaded;
+    //}
 
     private void OnDestroy()
     {
