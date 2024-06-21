@@ -65,7 +65,11 @@ public class Mission : ScriptableObject
 
     private void StartMission()
     {
+        Debug.Log("test 1");
+
         if (StartMissionCallback == null) return;
+
+        Debug.Log("test 2");
 
         StartMissionCallback.Invoke(this);
     }

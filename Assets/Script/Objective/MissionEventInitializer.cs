@@ -12,20 +12,17 @@ public class MissionEventInitializer : SingletonDontDestroy<MissionEventInitiali
     protected override void Awake()
     {
         base.Awake();
-
-        Dispose();
-        Init();
     }
 
-    //void OnEnable()
-    //{
-    //    SceneManager.sceneLoaded += OnSceneLoaded;
-    //}
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
 
-    //void OnDisable()
-    //{
-    //    SceneManager.sceneLoaded -= OnSceneLoaded;
-    //}
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
     private void OnDestroy()
     {
