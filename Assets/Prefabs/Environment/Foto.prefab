@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6405926509960501950
+--- !u!1 &4560311366656180255
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6405926509960501944}
-  - component: {fileID: 6405926509960501945}
-  - component: {fileID: 702001626673504425}
-  - component: {fileID: 2076879754413919145}
+  - component: {fileID: 5024526057633571906}
+  - component: {fileID: 8760837944310181796}
   m_Layer: 0
-  m_Name: Sofa Hide
+  m_Name: Foto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6405926509960501944
+--- !u!4 &5024526057633571906
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405926509960501950}
+  m_GameObject: {fileID: 4560311366656180255}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.42, y: -2.21, z: 0}
-  m_LocalScale: {x: 0.6874, y: 0.6874, z: 0.6874}
+  m_LocalPosition: {x: 44.4, y: -0.21, z: 0}
+  m_LocalScale: {x: 0.38592795, y: 0.38592795, z: 0.38592795}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6405926509960501945
+--- !u!212 &8760837944310181796
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405926509960501950}
+  m_GameObject: {fileID: 4560311366656180255}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,55 +72,15 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1006798555
   m_SortingLayer: 1
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 01da7d23b92c3514c9bb40242f15e17d, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: eafb289b96891224e9801495e5e6649e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.74, y: 3.89}
+  m_Size: {x: 7.78, y: 2.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &702001626673504425
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405926509960501950}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.74, y: 3.89}
-    newSize: {x: 7.74, y: 3.89}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.74, y: 3.89}
-  m_EdgeRadius: 0
---- !u!114 &2076879754413919145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6405926509960501950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db1c6bf5d02ec124d88b9da68b433dde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _hidePlayerEvent: {fileID: 11400000, guid: 003928c29c01e6242a94db6dbce678a2, type: 2}
-  _setActiveInteractButton: {fileID: 11400000, guid: 0a360d829271a5348ae49305e74bbb1a, type: 2}
