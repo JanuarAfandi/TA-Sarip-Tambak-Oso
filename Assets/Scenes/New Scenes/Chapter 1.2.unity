@@ -179,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 7
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: d6567dd4b977ea24d8383301cade16f8, type: 3}
+  Icon: {fileID: 21300000, guid: f006c87fea72cd1478a01fb391e05ba5, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &6706849
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 840611ae2be99144aa5cb95181dadbb4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &6706850
 MonoBehaviour:
@@ -217,7 +217,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: d6567dd4b977ea24d8383301cade16f8, type: 3}
+  Icon: {fileID: 21300000, guid: dfa4adc60d0e5fc438b7d0c02892b643, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &6706851
 MonoBehaviour:
@@ -236,7 +236,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &6706852
 MonoBehaviour:
@@ -312,7 +312,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: d6567dd4b977ea24d8383301cade16f8, type: 3}
+  Icon: {fileID: 21300000, guid: e7af9a5a764e24f468b96dc409d1891d, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &201551706 stripped
 Transform:
@@ -422,12 +422,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":89.6000061,"yPos":-183.999969},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"(Biarkan
-    saja)","parentUIDs":[1],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":313.6,"yPos":-186.999969},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tanyakan
-    sesuatu","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":199.6,"yPos":-387},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":200.6,"yPos":-286.999969},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":311.6,"yPos":-113.999969},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ibu
-    tidak apa-apa?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":313.6,"yPos":-9.999985},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Lapar...
-    Butuh makan...","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":315.6,"yPos":88.0000153},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Maaf
-    bu saya tidak membawa makanan","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":313.6,"yPos":191},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":49.80002,"yPos":-88.9999542},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"(Biarkan
+    saja)","parentUIDs":[1],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":-91.9999542},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tanyakan
+    sesuatu","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":159.800018,"yPos":-292},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":160.800018,"yPos":-191.999954},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":271.800018,"yPos":-18.9999542},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ibu
+    tidak apa-apa?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":85.0000153},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Lapar...
+    Butuh makan...","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":275.800018,"yPos":183.000015},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Maaf
+    bu saya tidak membawa makanan","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":286},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
     apa-apa nak","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Sarip
@@ -492,25 +492,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 8
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":2,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    pagi, Bu Risma","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":2,"yPos":148},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    pagi, Sarip","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":-0.5,"yPos":264},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Bu
-    Risma sedang apa? Sepertinya Ibu tampak resah","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":-0.5,"yPos":382},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
-    nih Rip. Ibu lagi menunggu suami Ibu dari kemarin belum pulang juga. Katanya
-    sih sedang berjaga di pos ronda. Tapi harusnya pagi ini dia sudah pulang.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":249.5,"yPos":22},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
-    setelah ini suami Ibu pasti pulang. Tunggu saja bu.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":243.5,"yPos":153},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
-    kamu benar Rip. Mungkin Ibu harus menunggu lebih lama lagi. Kalau begitu Ibu
-    mau masuk rumah dulu. Ibu mau menyiapkan makanan untuknya.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
-    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":252.5,"yPos":264},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
-    kalau begitu. Sarip lanjut keliling desa lagi ya Bu.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":251.5,"yPos":381},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    Rip. Hati-hati dijalan nak.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
+  CurrentIDCounter: 9
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":234.800018,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    pagi, Bu Risma. Bagaimana kabarnya bu?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":454.800049,"yPos":26.0000153},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    pagi, Sarip. Ya kondisi saat ini sedang tidak baik-baik saja Rip","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":673.300049,"yPos":28.000061},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Ada
+    apa bu memangnya?","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":229.300034,"yPos":122.000061},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    begitu ternyata. Maaf bu Sarip belum bisa bantu apa-apa. Tetapi semoga suatu
+    saat nanti ada keajaiban muncul di desa ini","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":454.300018,"yPos":122.999985},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Hasil
+    kerja dari suami pun tidak cukup. Hanya bisa bertahan beberapa hari saja","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":669.300049,"yPos":134},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Pasokan
+    makanan keluarga kami hampir habis. Kami bingung harus mencarinya dimana lagi","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":225.300018,"yPos":238.000046},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+    apa-apa. kami juga berharap semoga ada keajaiban nantinya yang entah kapan datangnya","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
+    Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":453.300018,"yPos":230.000046},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    bu saya mau keliling desa lagi","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":674.2,"yPos":228.800034},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    Sarip","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Bu
     Risma","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Bu Risma
-  DefaultSprite: {fileID: 21300000, guid: 27c4f0d0c2e31c94f9b789cc6220d0f0, type: 3}
+  DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1482953409}
@@ -521,6 +522,7 @@ MonoBehaviour:
   - {fileID: 1482953412}
   - {fileID: 1482953411}
   - {fileID: 1482953410}
+  - {fileID: 1482953416}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -556,38 +558,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":85.80002,"yPos":-287.999878},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Kebetulan
-    lewat","parentUIDs":[4],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":322.800018,"yPos":-286.999878},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
-    ingin bertanya pak...","parentUIDs":[4],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":207.800018,"yPos":-726},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    Pagi Pak Imin","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":206.800018,"yPos":-617.999939},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Semoga
-    kehadiranku disini tidak mengganggu Bapak.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":205.800018,"yPos":-505.999878},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":29.8000183,"yPos":-403.999817},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Kebetulan
+    lewat","parentUIDs":[4],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":266.800018,"yPos":-402.999817},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    ingin bertanya pak...","parentUIDs":[4],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":151.800018,"yPos":-842},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    Pagi Pak Imin","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":150.800018,"yPos":-733.999939},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Semoga
+    kehadiranku disini tidak mengganggu Bapak.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":149.800018,"yPos":-621.9998},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi
     Rip. Kamu tidak mengganggu Bapak kok. ","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0.1,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":208.800018,"yPos":-390.999878},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ada
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0.1,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":136.800018,"yPos":-517.999756},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ada
     perlu apa kamu kemari?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":84.80002,"yPos":-230.999878},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
-    hanya kebetulan lewat pak","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":85.80002,"yPos":-138.999878},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
-    hanya kebetulan lewat. Ya sudah kalau begitu bapak mau pergi bantu-bantu warga
-    sekitar. Ada beberapa rumah warga yang perlu diperbaiki sebab rumah mereka kebanyakan
-    mengalami kerusakan.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":83.80002,"yPos":-44.9998932},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
-    pak kalau begitu. Sarip pamit dulu. Assalamualaikum.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":82.80002,"yPos":39.00009},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Waalaikumsalam.
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":28.8000183,"yPos":-346.999817},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    hanya kebetulan lewat pak","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":29.8000183,"yPos":-254.999832},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    baiklah kalau begitu","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":27.8000183,"yPos":-160.999847},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
+    pak. Sarip lanjut dulu. Assalamualaikum.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":26.8000183,"yPos":-76.99985},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Waalaikumsalam.
     Hati-hati dijalan Rip. Titip salam untuk Ibumu.","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":321.800018,"yPos":-217.999878},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
-    ingin tanya pak soal keadaan warga desa yang sekarang.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":321.800018,"yPos":-130.999878},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
-    itu ya memang keadaan desa kita agak memprihatinkan. Banyak warga yang kekurangan
-    bahan makanan.","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":332.800018,"yPos":-32.9998932},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
-    begitu, warga kita nantinya sering kelaparan karena bahan makanan yang tidak
-    mencukupi.","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":327.800018,"yPos":63.00003},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
-    Rip. Bapak sendiri juga bingung gimana mau membantu mereka-mereka yang kesusahan.
-    Bapak sendiri juga tidak punya rejeki yang cukup.","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":324.800018,"yPos":159.000031},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
-    Sarip bisa membantu pak. Tapi Sarip belum menemukan caranya.","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":326.800018,"yPos":250},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
-    apa-apa Rip tidak usah repot-repot. Ya sudah kalau begitu Bapak mau pergi ke
-    rumah Pak Maryo. Katanya rumahnya butuh bantuan untuk diperbaiki.","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":320.800018,"yPos":343},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Ya
-    sudah pak kalau begitu. Sarip pamit dulu. Assalamualaikum.","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":324.800018,"yPos":438},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Waalaikumsalam.
-    Hati-hati dijalan Rip.","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":265.800018,"yPos":-333.999817},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    ingin tanya pak soal kondisi warga desa yang sekarang.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":264.800018,"yPos":-242.999832},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"kondisi
+    desa kita agak memprihatinkan. Banyak warga yang kekurangan bahan makanan.","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":259.800018,"yPos":-147.999847},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    begitu, warga kita nantinya akan lebih sering kelaparan ","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":259.800018,"yPos":-45.9999847},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Mungkin
+    Sarip bisa membantu pak. Tapi Sarip belum menemukan caranya","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":256.800018,"yPos":50.0000153},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+    apa-apa Rip. Kita hanya bisa bekerja keras saat ini walaupun harus dibawah tekanan
+    para antek Belanda","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":252.800018,"yPos":148.000015},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    kalau begitu pak. Sarip pamit dulu. Assalamualaikum","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":250.800018,"yPos":247},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Waalaikumsalam.","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
     Imin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Pak Imin
@@ -607,7 +601,6 @@ MonoBehaviour:
   - {fileID: 1107688716}
   - {fileID: 1107688715}
   - {fileID: 1107688714}
-  - {fileID: 1107688713}
   - {fileID: 1107688712}
   - {fileID: 1107688711}
   - {fileID: 1107688710}
@@ -721,18 +714,9 @@ GameObject:
   m_Component:
   - component: {fileID: 390626382}
   - component: {fileID: 390626384}
-  - component: {fileID: 390626394}
-  - component: {fileID: 390626393}
-  - component: {fileID: 390626392}
-  - component: {fileID: 390626391}
-  - component: {fileID: 390626390}
-  - component: {fileID: 390626389}
-  - component: {fileID: 390626388}
-  - component: {fileID: 390626387}
-  - component: {fileID: 390626386}
-  - component: {fileID: 390626385}
   - component: {fileID: 390626396}
   - component: {fileID: 390626395}
+  - component: {fileID: 390626399}
   - component: {fileID: 390626398}
   - component: {fileID: 390626397}
   m_Layer: 0
@@ -774,197 +758,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 11
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 10
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 9
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 8
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 7
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 6
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 5
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 4
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 3
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &390626394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390626381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 2
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2442f4e2232869e47a5ec0e18203c914, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &390626395
 MonoBehaviour:
@@ -1019,9 +813,9 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 16
+  NodeID: 20
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 3eb671435848a524baca0c0228d18d65, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &390626398
 MonoBehaviour:
@@ -1038,9 +832,28 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 14
+  NodeID: 19
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 78b5fefdae7fd3c41a4c6e0bc37bddf3, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &390626399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390626381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 18
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 8005f6afea1951c4a9c497879df5269a, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &496346432
 GameObject:
@@ -1087,46 +900,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 18
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":185.800018,"yPos":-808},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    pagi pak Subagiyo","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":187.800018,"yPos":-704.999939},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi
-    juga Rip. Ada perlu apa nih?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":187.800018,"yPos":-606},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Enggak
-    ada apa-apa pak. Sedang apa bapak sekarang?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":191.800018,"yPos":-497},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ini
-    bapak mau berangkat pergi ke sawah. Semoga hari ini tidak turun hujan.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":417.800018,"yPos":-375},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Ya
-    kalau turun hujan. Nanti gagal panen jadinya. Tidak ada beras untuk warga kita.","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":194.800018,"yPos":-265},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
-    rip harusnya kamu tahu. Kalau kita tidak punya pasokan beras yang cukup kita
-    kesusahan nantinya. Sekarang mencari bahan makanan susah Rip. ","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":188.800018,"yPos":-171.000061},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Memangnya
-    bagaimana pak dengan keadaan warga desa saat ini?","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":179.800018,"yPos":-78.00006},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Agak
-    memprihatinkan sih Rip. Tapi semoga kedepannya bisa membaik keadaannya.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":198.800018,"yPos":27.999939},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Semoga
-    saja pak. Ya sdah pak saya mau pergi dulu. Mau keliling desa.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":204.800018,"yPos":123.999939},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
-    kalau begitu. Sampai ketemu lagi Rip.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":204.800018,"yPos":226.999985},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    pak.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":422.2,"yPos":-493.199951},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Memangnya
-    kenapa pak?","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":194.200012,"yPos":-373.199951},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Begitu
-    ya pak?","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 21
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":true,"xPos":238.800018,"yPos":-22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    pagi pak Subagiyo","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":241.200012,"yPos":86.8},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Halo
+    Sarip. Mau ikutan ngopi bareng nanti?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":239.200012,"yPos":193.799988},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Eh...
+    sepertinya tidak dulu pak mungkin lain kali","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":237.200012,"yPos":302.8},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    kalau begitu. Titip salam buat Ibumu dirumah ya","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Pak Subagiyo
   DefaultSprite: {fileID: 21300000, guid: 335cd06b58a35014db6a44929e213fa5, type: 3}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 390626384}
-  - {fileID: 390626394}
-  - {fileID: 390626393}
-  - {fileID: 390626392}
-  - {fileID: 390626391}
-  - {fileID: 390626390}
-  - {fileID: 390626389}
-  - {fileID: 390626388}
-  - {fileID: 390626387}
-  - {fileID: 390626386}
-  - {fileID: 390626385}
   - {fileID: 390626396}
   - {fileID: 390626395}
+  - {fileID: 390626399}
   - {fileID: 390626398}
   - {fileID: 390626397}
   ContinueFont: {fileID: 0}
@@ -1515,7 +1305,6 @@ GameObject:
   - component: {fileID: 1107688716}
   - component: {fileID: 1107688715}
   - component: {fileID: 1107688714}
-  - component: {fileID: 1107688713}
   - component: {fileID: 1107688712}
   - component: {fileID: 1107688711}
   - component: {fileID: 1107688710}
@@ -1559,7 +1348,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688709
 MonoBehaviour:
@@ -1578,7 +1367,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 21
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 0048cf013517dec49b11bf02fde8116f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688710
 MonoBehaviour:
@@ -1597,7 +1386,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 20
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688711
 MonoBehaviour:
@@ -1616,7 +1405,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 19
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 9069eac9e0519cf41b9a090089ca9c80, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688712
 MonoBehaviour:
@@ -1635,26 +1424,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 18
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1107688713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107688705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 17
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 840611ae2be99144aa5cb95181dadbb4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688714
 MonoBehaviour:
@@ -1673,7 +1443,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 16
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 78b5fefdae7fd3c41a4c6e0bc37bddf3, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688715
 MonoBehaviour:
@@ -1692,7 +1462,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 15
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 9069eac9e0519cf41b9a090089ca9c80, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688716
 MonoBehaviour:
@@ -1711,7 +1481,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 13
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688717
 MonoBehaviour:
@@ -1730,7 +1500,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 12
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 0048cf013517dec49b11bf02fde8116f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688718
 MonoBehaviour:
@@ -1749,7 +1519,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 11
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688719
 MonoBehaviour:
@@ -1768,7 +1538,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 10
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 76600ff891e8fb942b4effe17464db2b, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688720
 MonoBehaviour:
@@ -1787,7 +1557,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 8
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688721
 MonoBehaviour:
@@ -1844,7 +1614,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 0048cf013517dec49b11bf02fde8116f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688724
 MonoBehaviour:
@@ -1863,7 +1633,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 6b5a1f7e17f29f447972111ee1cfa198, type: 3}
+  Icon: {fileID: 21300000, guid: 76600ff891e8fb942b4effe17464db2b, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1107688725
 MonoBehaviour:
@@ -1882,7 +1652,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1181756981
 GameObject:
@@ -2255,73 +2025,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 24
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":-269.400024,"yPos":-119.999969},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
-    ada apa-apa pak","parentUIDs":[4],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":-35.40001,"yPos":-121.999969},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Soal
-    Bu Risma...","parentUIDs":[4],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":-146.400009,"yPos":-498},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    Pagi Pak.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":-147.400009,"yPos":-407},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":-147.400009,"yPos":-309},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Eh..
-    Pak?","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":-152.400009,"yPos":-218.999969},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+  CurrentIDCounter: 34
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":46.2000275,"yPos":0.7999878},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+    ada apa-apa","parentUIDs":[4],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":283.2,"yPos":-2.20001221},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Tanya
+    kondisi desa","parentUIDs":[4],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":165.800049,"yPos":-376},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    Pagi Pak.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":164.800049,"yPos":-284},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":164.800049,"yPos":-186.000046},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Eh..
+    Pak?","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":25},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":159.800034,"yPos":-96.00002},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
     iya iya. Maaf tadi agak ngelamun. Ada perlu apa?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":-275.400024,"yPos":-58.99997},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
-    ada apa-apa pak kebetulan hanya lewat saja.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":-282.400024,"yPos":32.00003},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Ya
-    sudah kalau begitu. Bapak habis ini mau pulang dulu. Bapak sudah lapar semalam
-    belum makan.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":-279.400024,"yPos":123.000031},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    pak. saya juga mau pamit dulu.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-279.400024,"yPos":214.000015},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
-    Rip. Hati-hati dijalan","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":-40.40001,"yPos":-55.99997},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Pak
-    Yanto tidak pulang ke rumah?","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":-41.40001,"yPos":32.00003},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Bu
-    Risma dari tadi menunggu kedatangan Pak Yanto soalnya. Dari semalam Pak Yanto
-    masih belum pulang ke rumah juga.","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":-37.40001,"yPos":128.000015},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
-    iya kah? Maaf maaf. Semalam kemarin malam bapak lagi seru-serunya mengintip sesuatu.","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":-41.40001,"yPos":222.000015},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"Memangnya
-    apa yang bapak lakukan semalam?","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":173.599976,"yPos":-57.99997},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Semalam
-    bapak melihat. Ada beberapa pasukan Belanda yang menggeledah salah satu rumah
-    warga Rip. Bapak lihat para pendatang itu mengambil sebagian barang milik warga
-    secara paksa. ","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":175.599976,"yPos":38.00003},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Bapak
-    ingin membantu tetapi mereka membawa senjata. Bapak tidak ingin macam-macam dengan
-    mereka.","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":178.599976,"yPos":136.000015},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Wah
-    gawat itu pak. Tidak kita laporkan saja ke lurah desa ini?","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":184.599976,"yPos":238},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Mustahil
-    Rip. Dengar-dengan Lurah kita sudah bersekutu dengan mereka para Belanda. Mau
-    tidak mau kita harus bisa berjuang sendiri. demi bertahan hidup.","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":387.599976,"yPos":-57.99997},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
-    bisa dibiarkan ini Pak. Ya sudah kalau begitu Sarip ingin pergi dulu. Sudah ditunggu
-    sama Ibu di rumah.","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":388.599976,"yPos":44.00003},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    Rip. Bapak juga mau pulang ini.","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":395.599976,"yPos":137.000015},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"Hati-hati
-    dijalan pak.","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":398.599976,"yPos":239},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"Kamu
-    juga Rip","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":43.2000122,"yPos":76.79999},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+    ada apa-apa pak","parentUIDs":[25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":45.2000122,"yPos":177.799988},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    kalau begitu","parentUIDs":[27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":277.2,"yPos":83.79999},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Bagaimana
+    kondisi desa saat ini pak?","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":499.2,"yPos":86.79999},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Ya
+    seperti yang bisa dilihat saat ini. Kondisi desa tidak begitu baik","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":497.2,"yPos":181.799988},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"Serba
+    kekurangan intinya. Ekonomi, sandang dan pangan","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
+    Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":275.2,"yPos":181.799988},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    begitu. Semoga ada hal baik datang ke desa kita ya pak","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":276.2,"yPos":281.8},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
+    bapak juga berharap seperti itu","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
     Yanto","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Pak Yanto
-  DefaultSprite: {fileID: 21300000, guid: 8b3af206c968b43428a45d99516684a3, type: 3}
+  DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1929859289}
   - {fileID: 1929859288}
   - {fileID: 1929859287}
   - {fileID: 1929859286}
-  - {fileID: 1929859285}
-  - {fileID: 1929859284}
-  - {fileID: 1929859283}
-  - {fileID: 1929859282}
-  - {fileID: 1929859281}
-  - {fileID: 1929859280}
-  - {fileID: 1929859279}
-  - {fileID: 1929859278}
-  - {fileID: 1929859277}
-  - {fileID: 1929859276}
-  - {fileID: 1929859275}
-  - {fileID: 1929859274}
-  - {fileID: 1929859273}
-  - {fileID: 1929859272}
-  - {fileID: 1929859271}
-  - {fileID: 1929859270}
-  - {fileID: 1929859269}
-  - {fileID: 1929859268}
+  - {fileID: 1929859298}
+  - {fileID: 1929859297}
+  - {fileID: 1929859296}
+  - {fileID: 1929859295}
+  - {fileID: 1929859294}
+  - {fileID: 1929859293}
+  - {fileID: 1929859292}
+  - {fileID: 1929859291}
+  - {fileID: 1929859290}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -2375,6 +2116,7 @@ GameObject:
   - component: {fileID: 1482953412}
   - component: {fileID: 1482953411}
   - component: {fileID: 1482953410}
+  - component: {fileID: 1482953416}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2414,7 +2156,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 409209d04f6e4b9498bb2ef117dc7b2b, type: 3}
+  Icon: {fileID: 21300000, guid: 5cd8bde369c30bc41b569929befe3450, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953409
 MonoBehaviour:
@@ -2433,7 +2175,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953410
 MonoBehaviour:
@@ -2452,7 +2194,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 7
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 409209d04f6e4b9498bb2ef117dc7b2b, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953411
 MonoBehaviour:
@@ -2471,7 +2213,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 1306eb743d611e24cb7d6e23e82382c5, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953412
 MonoBehaviour:
@@ -2490,7 +2232,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 409209d04f6e4b9498bb2ef117dc7b2b, type: 3}
+  Icon: {fileID: 21300000, guid: 5cd8bde369c30bc41b569929befe3450, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953413
 MonoBehaviour:
@@ -2528,7 +2270,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 409209d04f6e4b9498bb2ef117dc7b2b, type: 3}
+  Icon: {fileID: 21300000, guid: 840611ae2be99144aa5cb95181dadbb4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1482953415
 MonoBehaviour:
@@ -2547,7 +2289,26 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 78b5fefdae7fd3c41a4c6e0bc37bddf3, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1482953416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482953406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 8
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1306eb743d611e24cb7d6e23e82382c5, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1598505715
 GameObject:
@@ -2780,24 +2541,15 @@ GameObject:
   - component: {fileID: 1929859288}
   - component: {fileID: 1929859287}
   - component: {fileID: 1929859286}
-  - component: {fileID: 1929859285}
-  - component: {fileID: 1929859284}
-  - component: {fileID: 1929859283}
-  - component: {fileID: 1929859282}
-  - component: {fileID: 1929859281}
-  - component: {fileID: 1929859280}
-  - component: {fileID: 1929859279}
-  - component: {fileID: 1929859278}
-  - component: {fileID: 1929859277}
-  - component: {fileID: 1929859276}
-  - component: {fileID: 1929859275}
-  - component: {fileID: 1929859274}
-  - component: {fileID: 1929859273}
-  - component: {fileID: 1929859272}
-  - component: {fileID: 1929859271}
-  - component: {fileID: 1929859270}
-  - component: {fileID: 1929859269}
-  - component: {fileID: 1929859268}
+  - component: {fileID: 1929859298}
+  - component: {fileID: 1929859297}
+  - component: {fileID: 1929859296}
+  - component: {fileID: 1929859295}
+  - component: {fileID: 1929859294}
+  - component: {fileID: 1929859293}
+  - component: {fileID: 1929859292}
+  - component: {fileID: 1929859291}
+  - component: {fileID: 1929859290}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2820,348 +2572,6 @@ Transform:
   m_Father: {fileID: 1476345581}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1929859268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 23
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 22
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 21
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 20
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 19
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 18
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 17
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 16
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 15
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 14
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 13
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 12
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 11
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 10
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 9
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 7
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1929859284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 6
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &1929859285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929859266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 5
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!114 &1929859286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3179,7 +2589,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
+  Icon: {fileID: 21300000, guid: ead5fa6d8f599004b811c26ee1751ab6, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1929859287
 MonoBehaviour:
@@ -3198,7 +2608,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1929859288
 MonoBehaviour:
@@ -3217,7 +2627,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 230f8bac34caf324eb844629507355ba, type: 3}
+  Icon: {fileID: 21300000, guid: f86ae7ae04ccce44fa9f1f272d539840, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1929859289
 MonoBehaviour:
@@ -3236,7 +2646,178 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 33
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0512711140c622a4da7258e0a4f9953c, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 32
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 840611ae2be99144aa5cb95181dadbb4, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 31
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0512711140c622a4da7258e0a4f9953c, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 30
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: f86ae7ae04ccce44fa9f1f272d539840, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 29
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 28
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 95867838c8945b24b9dc243d627987bc, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 27
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1929859297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 26
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1929859298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929859266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 25
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1001 &2025819603
 PrefabInstance:
@@ -3581,7 +3162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.92
+      value: 38.9
       objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3728,7 +3309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153543846831643900, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.03
+      value: 46.06
       objectReference: {fileID: 0}
     - target: {fileID: 153543846831643900, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
       propertyPath: m_LocalPosition.y

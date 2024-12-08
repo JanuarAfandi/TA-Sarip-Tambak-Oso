@@ -591,11 +591,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":229.6,"yPos":21},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Nak,
-    makanan mu sudah ada di meja makan","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ibu
-    Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":229.6,"yPos":136},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    bu saya masuk ke rumah dulu","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 9
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":80.80002,"yPos":90.9999847},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Sudah 
+    pulang Rip?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ibu
+    Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":307.800049,"yPos":88},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Sudah
+    bu","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":309.2,"yPos":197.8},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Ibu
+    sudah siapkan makanan dimeja. Nanti kamu bisa ambil saja","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ibu
+    Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":88.20001,"yPos":204.799988},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    bu nanti saya makan","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":88.20001,"yPos":311.8},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Bu,
+    ternyata kondisi warga desa saat ini sedang tidak baik-baik saja ya","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":305.2,"yPos":308.8},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Iya
+    Rip. semenjak ada antek-antek Belanda ini, hidup kita semakin serba kekurangan.
+    Yang miskin semakin miskin","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ibu
+    Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":312.2,"yPos":415.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"(Mungkin
+    ada yang bisa aku lakukan untuk membantu warga desa sini)","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":84.2,"yPos":424.8},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    bu. Sarip ingin istirahat dulu di kamar","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":85.2,"yPos":527.8},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    nak","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Ibu
+    Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -603,6 +614,13 @@ MonoBehaviour:
   NodeSerializedDataList:
   - {fileID: 2109442944}
   - {fileID: 2109442943}
+  - {fileID: 2109442951}
+  - {fileID: 2109442950}
+  - {fileID: 2109442949}
+  - {fileID: 2109442948}
+  - {fileID: 2109442947}
+  - {fileID: 2109442946}
+  - {fileID: 2109442945}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -2577,6 +2595,13 @@ GameObject:
   - component: {fileID: 2109442942}
   - component: {fileID: 2109442944}
   - component: {fileID: 2109442943}
+  - component: {fileID: 2109442951}
+  - component: {fileID: 2109442950}
+  - component: {fileID: 2109442949}
+  - component: {fileID: 2109442948}
+  - component: {fileID: 2109442947}
+  - component: {fileID: 2109442946}
+  - component: {fileID: 2109442945}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -2616,7 +2641,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2649c34c0acfd9b4cbde9617944962bc, type: 3}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2109442944
 MonoBehaviour:
@@ -2635,7 +2660,140 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 3ddba3c12d22ace449c6d79fb968c8d3, type: 3}
+  Icon: {fileID: 21300000, guid: e7ebd53971b29df4293a0538210eb15b, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 8
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 40ebc5e61b8042244b35592978706115, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 7
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 6
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 840611ae2be99144aa5cb95181dadbb4, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 5
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a2a17688c93d61943997f80a51bdd540, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 4
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 36c7f15b22c21bb46a8fb7df7f831e93, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &2109442951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 2
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 40ebc5e61b8042244b35592978706115, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &2144917908
 GameObject:
