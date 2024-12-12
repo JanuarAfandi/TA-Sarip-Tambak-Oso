@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/New Scenes/Chapter 2.5.unity
     guid: 436e50076b79cc841a0ee9b17e0a05b9
   - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 2.5b.unity
+    guid: 78c7a0acdba0388448d52f326351f5f2
+  - enabled: 1
     path: Assets/Scenes/New Scenes/Chapter 3.1a.unity
     guid: 7e06f11ed7f65d34e9eb253bb5bb8312
   - enabled: 1

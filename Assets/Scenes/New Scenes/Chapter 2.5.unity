@@ -3688,6 +3688,10 @@ PrefabInstance:
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: DialogueEditor.NPCConversation, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8141993308575055051, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8141993309795668627, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: m_text
       value: DI MALAM HARINYA
