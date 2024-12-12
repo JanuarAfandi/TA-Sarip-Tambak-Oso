@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/New Scenes/Chapter 3.8.unity
     guid: d5cdb77e9d32ba44cbf6203c6ae5ed11
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 3.1a-pre.unity
+    guid: 6da144c2023191f41abc2fb48abea46d
+  - enabled: 1
+    path: Assets/Scenes/New Scenes/Chapter 3.1a-post.unity
+    guid: 836931394ea610a42808d1479cfb9683
   m_configObjects: {}
