@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -176,7 +175,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928867169}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jemur
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 7
   TMPFont: {fileID: 0}
   Icon: {fileID: 21300000, guid: f006c87fea72cd1478a01fb391e05ba5, type: 3}
@@ -271,7 +282,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928867169}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jemur
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 2
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -309,7 +332,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928867169}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Idle
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: 21300000, guid: e7af9a5a764e24f468b96dc409d1891d, type: 3}
@@ -422,12 +457,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":49.80002,"yPos":-88.9999542},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"(Biarkan
-    saja)","parentUIDs":[1],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":-91.9999542},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tanyakan
-    sesuatu","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":159.800018,"yPos":-292},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":160.800018,"yPos":-191.999954},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":271.800018,"yPos":-18.9999542},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ibu
-    tidak apa-apa?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":85.0000153},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Lapar...
-    Butuh makan...","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":275.800018,"yPos":183.000015},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Maaf
-    bu saya tidak membawa makanan","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":273.800018,"yPos":286},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-116,"yPos":53.00006},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"(Biarkan
+    saja)","parentUIDs":[1],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":108,"yPos":50.00006},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tanyakan
+    sesuatu","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":-6,"yPos":-150},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":-5,"yPos":-49.9999542},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":106,"yPos":123.000061},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Ibu
+    tidak apa-apa?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":108,"yPos":227},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Lapar...
+    Butuh makan...","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":110,"yPos":325},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Maaf
+    bu saya tidak membawa makanan","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":108,"yPos":428},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Tidak
     apa-apa nak","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"...","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Sarip
@@ -446,7 +481,19 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 928867169}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jemur
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &338370404
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +802,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 496346435}
+        m_TargetAssemblyTypeName: SetTransformObject, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
   Icon: {fileID: 21300000, guid: f3a441ff6215a8c4b89b57faf26a6bfc, type: 3}
@@ -865,6 +924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496346433}
   - component: {fileID: 496346434}
+  - component: {fileID: 496346435}
   m_Layer: 0
   m_Name: Dialogue Warga 3 (Chapter 1)
   m_TagString: Untagged
@@ -901,11 +961,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 21
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":true,"xPos":238.800018,"yPos":-22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
-    pagi pak Subagiyo","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":241.200012,"yPos":86.8},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Halo
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":true,"xPos":75,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+    pagi pak Subagiyo","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":77.3999939,"yPos":130.799988},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Halo
     Sarip. Mau ikutan ngopi bareng nanti?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
-    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":239.200012,"yPos":193.799988},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Eh...
-    sepertinya tidak dulu pak mungkin lain kali","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":237.200012,"yPos":302.8},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":75.3999939,"yPos":237.799988},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Eh...
+    sepertinya tidak dulu pak mungkin lain kali","parentUIDs":[18],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":73.3999939,"yPos":346.8},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
     kalau begitu. Titip salam buat Ibumu dirumah ya","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pak
     Subagiyo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -923,7 +983,38 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 496346435}
+        m_TargetAssemblyTypeName: SetTransformObject, Assembly-CSharp
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &496346435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496346432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ce7d1329b7df54d9774da3af648d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference: {fileID: 1950535074}
+  changePosition: 0
+  position: {x: 0, y: 1.466, z: 0}
+  changeRotation: 0
+  rotation: {x: -0, y: 0, z: 0}
+  changeScale: 1
+  scale: {x: 0.8, y: 0.8, z: 1}
 --- !u!1001 &541420398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1143,6 +1234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ibu NPC 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5140871331932212896, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5435453849387639158, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1194,6 +1289,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5435453849387639158, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
   m_PrefabInstance: {fileID: 928867166}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &928867168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9054419763323607409, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
+  m_PrefabInstance: {fileID: 928867166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &928867169 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5158468445655056183, guid: 12a69751489f476408a46b1fab21e6a1, type: 3}
+  m_PrefabInstance: {fileID: 928867166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &928867170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928867168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05e2f92fd1be194fb1accd5bde27b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  initEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 928867169}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jemur
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1051216711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1903,6 +2036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chat Interactable
       objectReference: {fileID: 0}
+    - target: {fileID: 5953926131618137576, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7236374941280277338, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1996,7 +2133,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1476345581
 Transform:
   m_ObjectHideFlags: 0
@@ -2819,6 +2956,11 @@ MonoBehaviour:
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
+--- !u!4 &1950535074 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1675079989923750974, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
+  m_PrefabInstance: {fileID: 1816366302816405843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2025819603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2839,11 +2981,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: c2458c780656e7d44b27f37a9b9e247a, type: 2}
     - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
@@ -2855,12 +3005,32 @@ PrefabInstance:
       value: SOGameEvents.GameEventNoParam, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SOGameEvents.GameEventNoParam, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274320740184795923, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: onChatEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5953926131618137576, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: m_Name
       value: Chat Interactable
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429474715360165439, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: m_Size.x
+      value: 3.5322294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429474715360165439, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: m_Size.y
+      value: 2.850553
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429474715360165439, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.27719736
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429474715360165439, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.4552765
       objectReference: {fileID: 0}
     - target: {fileID: 7236374941280277338, guid: d01ea5ea0c5d5dd4a83a66f67aafddc1, type: 3}
       propertyPath: m_RootOrder
@@ -3156,13 +3326,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warga 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1675079989923750974, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.9
+      value: 38.84
       objectReference: {fileID: 0}
     - target: {fileID: 4637835552743456968, guid: 020b7bfc7f3a02040bcbe17736f91ec2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3309,7 +3483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153543846831643900, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.06
+      value: 40.25
       objectReference: {fileID: 0}
     - target: {fileID: 153543846831643900, guid: 63d9e9270ace9dc43a8597856815d37b, type: 3}
       propertyPath: m_LocalPosition.y

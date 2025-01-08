@@ -19,5 +19,5 @@ MonoBehaviour:
   StartThisMissionCallback: {fileID: 11400000, guid: bcd58102a7199ca47926e0550a5af19b, type: 2}
   OnMissionIsDone:
   - {fileID: 11400000, guid: ff4495a832c31964089c17a7cf35d02c, type: 2}
-  - {fileID: 11400000, guid: 6a6948952ee674144be5806a68b8e42a, type: 2}
+  - {fileID: 11400000, guid: f923f0b08ad68414b843b4628f1b82b6, type: 2}
   OnMissionCanceled: []
