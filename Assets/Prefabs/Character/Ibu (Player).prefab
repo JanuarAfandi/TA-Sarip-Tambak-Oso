@@ -56,8 +56,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1143469079351540981, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143469079351540981, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143469079351540981, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 60912197
       objectReference: {fileID: 0}
     - target: {fileID: 2255626085960438363, guid: 328cc0db5f8389e40a0eb756dcab281b, type: 3}
       propertyPath: m_Name
@@ -270,6 +278,7 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 64
+  walkAudio: {fileID: 0}
   _animator: {fileID: 7779353271816560818}
   _rigidbody: {fileID: 1455550633}
   _movePositionEvent: {fileID: 11400000, guid: eceb24653d60b3f4f9006334c621a608, type: 2}

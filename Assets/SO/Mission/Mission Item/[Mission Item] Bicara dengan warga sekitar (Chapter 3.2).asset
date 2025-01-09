@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: Bicara dengan warga sekitar
   Callback: {fileID: 11400000, guid: 36b02a743d6eb5f41a090518f49f91ba, type: 2}
-  TargetAmount: 6
+  TargetAmount: 5
   Amount: 6

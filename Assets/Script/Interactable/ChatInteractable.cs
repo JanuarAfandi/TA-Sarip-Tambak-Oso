@@ -11,6 +11,8 @@ public class ChatInteractable : Interactable
     [BoxGroup("Data", Order = 0)]
     public bool isAlreadyUsed = false;
     [BoxGroup("Data", Order = 0)]
+    public UnityEvent onChatStarted = new UnityEvent();
+    [BoxGroup("Data", Order = 0)]
     public UnityEvent onChatEnded = new UnityEvent();
 
     [BoxGroup("Events", Order = 1)]
@@ -70,6 +72,8 @@ public class ChatInteractable : Interactable
 
         setActiveController.Invoke(false);
         setActiveChatButton.Invoke(false);
+
+        onChatStarted.Invoke();
 
         ConversationManager.Instance.StartConversation(_conversation);
         ConversationManager.OnConversationEnded += OnChatEnd;
