@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     public Button jumpButton;
     public Button interactButton;
 
+    public GameObject mainPanel = null;
     public GameObject controllerPanel = null;
     public GameObject losePanel = null;
     public GameObject pausePanel = null;
@@ -27,6 +28,8 @@ public class UIManager : MonoBehaviour
     public GameEventString onClickChatButton = null;
     [BoxGroup("Events", Order = 100)]
     public GameEventBool setActiveController = null;
+    [BoxGroup("Events", Order = 100)]
+    public GameEventBool setMainPanelActivation = null;
     [BoxGroup("Events", Order = 100)]
     public GameEventBool pauseGameEvent = null;
     [BoxGroup("Events")]
@@ -53,6 +56,7 @@ public class UIManager : MonoBehaviour
         setCurrentChatID.AddListener(SetChatID);
         gameLoseEvent.AddListener(GameLose);
         pauseGameEvent.AddListener(Pause);
+        setMainPanelActivation.AddListener(mainPanel.SetActive);
     }
 
     private void OnDisable()
@@ -63,6 +67,7 @@ public class UIManager : MonoBehaviour
         setCurrentChatID.RemoveListener(SetChatID);
         gameLoseEvent.RemoveListener(GameLose);
         pauseGameEvent.RemoveListener(Pause);
+        setMainPanelActivation.RemoveListener(mainPanel.SetActive);
     }
 
     private void SetChatID(string id)
@@ -79,12 +84,12 @@ public class UIManager : MonoBehaviour
     {
         leftButton.gameObject.SetActive(isActive);
         rightButton.gameObject.SetActive(isActive);
-        jumpButton.gameObject.SetActive(isActive);
+        //jumpButton.gameObject.SetActive(isActive);
     }
 
     private void GameLose()
     {
-        controllerPanel.gameObject.SetActive(false);
+        mainPanel.gameObject.SetActive(false);
         losePanel.gameObject.SetActive(true);
     }
 

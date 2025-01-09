@@ -28,6 +28,8 @@ public class PlayableDirectorEvent : MonoBehaviour
     {
         if (director != playableDirector) return;
 
+        Debug.Log("Playable Director is completed!");
+
         onCompleted.Invoke();
     }
 }
