@@ -259,6 +259,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8edd54390af73a840b761468a6b4f35c, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.40619993
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9000001
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2 (2)
@@ -1069,7 +1093,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: 6afe658caed748248b62e94bfa89ccb6, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237847
 MonoBehaviour:
@@ -1088,7 +1112,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 10
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Icon: {fileID: 21300000, guid: 6afe658caed748248b62e94bfa89ccb6, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237848
 MonoBehaviour:
@@ -1107,7 +1131,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 9
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237849
 MonoBehaviour:
@@ -1126,7 +1150,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 8
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Icon: {fileID: 21300000, guid: a9a26b658565f6e42992bdad357534b4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237850
 MonoBehaviour:
@@ -1145,7 +1169,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 7
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &667666719
 GameObject:
@@ -1397,14 +1421,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 11
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":158.800018,"yPos":72},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Bagaimana
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":178.799988,"yPos":38},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Bagaimana
     ini? Sarip bisa hidup kembali? Sungguh sulit dipercaya bukan? ","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":386.2,"yPos":66.79997},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
-    tuan, saya tahu siapa yang bisa mengatasi masalah ini.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":370.2,"yPos":187.8},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Siapa
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":406.199982,"yPos":32.7999725},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    pak, saya tahu siapa yang bisa mengatasi masalah ini.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":390.199982,"yPos":153.8},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Siapa
     itu?","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":123.200012,"yPos":195.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Salim.
-    Tuan saudara dari Sarip. barangkali dia tahu sesuatu tentang Sarip.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":127.200012,"yPos":320.8},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":143.199982,"yPos":160.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Salim,
+    saudara dari Sarip. Mungkin saja dia tahu sesuatu tentang Sarip.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":147.199982,"yPos":286.8},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah
     kalau begitu. Bawa dia kemari","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
     Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -1652,6 +1677,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8edd54390af73a840b761468a6b4f35c, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9000001
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2 (1)
@@ -2009,26 +2058,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":215.800018,"yPos":-305},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamatang
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":156.8,"yPos":-403.999969},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
     datang Salim","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":442.200043,"yPos":-308.199951},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Ada
-    apa ini?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":452.200043,"yPos":-192.199951},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini,
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":383.2,"yPos":-407.199921},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Ada
+    apa ini?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":393.2,"yPos":-291.199951},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini,
     apakah kau ingin jadi mandor pabrik gula?","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":211.200043,"yPos":-186.199951},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa?
-    Mandor pabrik gula? Ada apa ini sebenarnya?","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":203.200027,"yPos":-69.19997},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Kenapa
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":152.200027,"yPos":-285.199951},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa?
+    Mandor pabrik gula? Ada apa ini sebenarnya?","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":148.200012,"yPos":-195.199921},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Kenapa
     tidak? Apa saja bisa kami lakukan asalkan tuan bersedia membantu kami. Bagaimana?","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":440.200043,"yPos":-78.19997},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Memang
-    apa yang bisa aku bantu, Tuan?","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":438.200043,"yPos":22.8000488},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Kami
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":381.2,"yPos":-177.199936},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Memang
+    apa yang bisa aku bantu, Tuan?","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":379.2,"yPos":-76.1999359},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Kami
     ingin melenyapkan Sarip. Kau tahu bukan, Sarip sudah pernah kami bunuh tetapi
     ia selalu hidup kembali","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":209.200043,"yPos":40.80005},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Mengapa
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":150.200027,"yPos":-58.1999359},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Mengapa
     bisa begitu? Sungguh aneh bukan? Bagaimana cara agar dia bisa mati selamanya
     tanpa bisa hidup kembali?","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":207.200043,"yPos":144.799988},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
-    jadi Tuan ingin tahu kelemahan Sarip?","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":433.200043,"yPos":144.799988},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"Benar!
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":143.200027,"yPos":34.8000031},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    jadi Tuan ingin tahu kelemahan Sarip?","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":374.2,"yPos":45.8000031},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"Benar!
     Benar! kalau kau mau membantu, kami akan mengangkat mu jadi mandor pabrik gula.","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":444.200043,"yPos":250.799988},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah,
-    itu sebenarnya perkara mudah, Tuan.","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":209.200043,"yPos":254.799988},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":387.2,"yPos":166.799973},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Baiklah,
+    itu sebenarnya perkara mudah, Tuan.","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":144.200027,"yPos":162.799973},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
     caranya...","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -3529,7 +3578,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5e8eb4e38fdaba848a0d31a14abd6d4d, type: 3}
     - target: {fileID: 3283598005383615264, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4453492438938873792, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
@@ -3555,6 +3604,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 785ba3229c273a247967f2db34c20dd3, type: 3}
+    - target: {fileID: 5928142146520766280, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6030069602245632619, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3777,7 +3830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7858410434742208919, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8879170996032084526, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
@@ -4120,7 +4173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6561127
+      value: -5.96
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4154,6 +4207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 777228404301063523, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
 --- !u!4 &1989469633 stripped
@@ -4368,9 +4425,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.6
+      propertyPath: m_LocalScale.x
+      value: 0.3548561
       objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3548561
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2957134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2189
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2671
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789628128973948394, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c9f50120c9eda94186008aa676abd38, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
 --- !u!1001 &777228404204123360
@@ -4394,7 +4471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6561127
+      value: -5.96
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4428,6 +4505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 777228404301063523, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
 --- !u!1001 &1265912206813621450
@@ -4508,6 +4589,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8edd54390af73a840b761468a6b4f35c, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4198
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.88
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2

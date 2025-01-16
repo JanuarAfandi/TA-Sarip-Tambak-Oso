@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -333,6 +334,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -1555,6 +1560,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -2631,6 +2640,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -2757,6 +2770,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -3055,7 +3072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4314709, y: 0.44558, z: -10}
+  m_LocalPosition: {x: 1.4443007, y: 0.44555998, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3069,6 +3086,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -3222,6 +3243,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -4614,6 +4639,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
@@ -5509,6 +5538,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1745886949}
     m_Modifications:
+    - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     - target: {fileID: 7367388347661762608, guid: e65607a4e5ec7ae4fa4f85d370de6afa, type: 3}
       propertyPath: m_SortingOrder
       value: 4

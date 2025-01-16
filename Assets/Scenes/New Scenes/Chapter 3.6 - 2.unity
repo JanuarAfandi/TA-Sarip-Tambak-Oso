@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -587,6 +588,11 @@ GameObject:
   - component: {fileID: 319269700}
   - component: {fileID: 319269699}
   - component: {fileID: 319269697}
+  - component: {fileID: 319269705}
+  - component: {fileID: 319269704}
+  - component: {fileID: 319269703}
+  - component: {fileID: 319269702}
+  - component: {fileID: 319269701}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -657,7 +663,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
+  Icon: {fileID: 21300000, guid: 2896d65b8af0ee841898f82b88538686, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &319269700
 MonoBehaviour:
@@ -677,6 +683,101 @@ MonoBehaviour:
   NodeID: 9
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &319269701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319269696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 6
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 6afe658caed748248b62e94bfa89ccb6, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &319269702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319269696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 5
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &319269703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319269696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 4
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &319269704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319269696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 3
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 6afe658caed748248b62e94bfa89ccb6, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &319269705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319269696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 2
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 2896d65b8af0ee841898f82b88538686, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &415099576
 GameObject:
@@ -1839,9 +1940,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":113.5,"yPos":130},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjutkan","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":110,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Untuk
-    apa aku dipanggil kemari?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 4
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":183.299988,"yPos":369},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjutkan","parentUIDs":[2],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":186.799988,"yPos":51.9999847},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Untuk
+    apa aku dipanggil kemari?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":false,"xPos":188.200012,"yPos":165.799988},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Aku
+    ingin tahu rahasia tentang sudaramu itu, Sarip!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -1850,6 +1953,7 @@ MonoBehaviour:
   - {fileID: 2025278315}
   - {fileID: 2025278314}
   - {fileID: 2025278312}
+  - {fileID: 2025278316}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -1928,10 +2032,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":51.5,"yPos":130},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjutkan","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":48,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"TUAN
-    GAWAT TUAN!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Tentara
-    1","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 7
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":449.3,"yPos":400},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjutkan","parentUIDs":[6],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":214.799988,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Gawat
+    Pak!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":441.2,"yPos":16.8000031},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Sarip
+    hidup kembali","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":440.2,"yPos":129.8},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa??
+    Bagaimana bisa? Cari cara agar dia bisa mati untuk selamanya!!","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":210.200012,"yPos":135.8},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    tahu orang yang bisa membantu kita","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":212.200012,"yPos":241.8},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Salim,
+    saudara dari Sarip pak. Mungkin ia tahu sesuatu","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":false,"xPos":459.2,"yPos":240.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    begitu, bawa dia kemari sekarang!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -1940,23 +2054,16 @@ MonoBehaviour:
   - {fileID: 319269700}
   - {fileID: 319269699}
   - {fileID: 319269697}
+  - {fileID: 319269705}
+  - {fileID: 319269704}
+  - {fileID: 319269703}
+  - {fileID: 319269702}
+  - {fileID: 319269701}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 67970153}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &844830888
 GameObject:
   m_ObjectHideFlags: 3
@@ -3925,6 +4032,7 @@ GameObject:
   - component: {fileID: 2025278315}
   - component: {fileID: 2025278314}
   - component: {fileID: 2025278312}
+  - component: {fileID: 2025278316}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -3995,7 +4103,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 7308c4877525d494181d3772713bf6f8, type: 3}
+  Icon: {fileID: 21300000, guid: b68dc17ac09dbba478105592f48d97f3, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &2025278315
 MonoBehaviour:
@@ -4015,6 +4123,25 @@ MonoBehaviour:
   NodeID: 9
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &2025278316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025278311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 2
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a9a26b658565f6e42992bdad357534b4, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &2054030653
 GameObject:
@@ -4182,6 +4309,110 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 377310959473083814, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
+    - target: {fileID: 377310959879613865, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
+    - target: {fileID: 2106795339958475405, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.33376828
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106795339958475405, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.33376828
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106795339958475405, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2781402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106795339958475405, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106795339958475405, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1408
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189788526930839676, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c9f50120c9eda94186008aa676abd38, type: 3}
+    - target: {fileID: 2865709455812219453, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709455812219453, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709455812219453, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709455812219453, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709455812219453, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709456213637682, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709456213637682, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709456213637682, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709456213637682, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865709456213637682, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257591652049900, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257591652049901, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
+    - target: {fileID: 6125257591652049903, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257592085236077, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257592085236077, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257592085236077, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42375597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257592085236077, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6125257592085236077, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.95
+      objectReference: {fileID: 0}
     - target: {fileID: 6125257592451596888, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4230,6 +4461,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment Kantor Pimpinan Belanda
       objectReference: {fileID: 0}
+    - target: {fileID: 6901779960094372556, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901779960094372557, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
+    - target: {fileID: 6901779960094372559, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8644721689359965942, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 925c4a2b4de987646b5ab145b0e5f028, type: 3}
 --- !u!95 &7361137223704584764

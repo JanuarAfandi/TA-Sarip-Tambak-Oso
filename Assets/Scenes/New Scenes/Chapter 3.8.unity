@@ -335,6 +335,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3302
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1119
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2 (2)
@@ -1802,6 +1826,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1119
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2 (1)
@@ -2405,21 +2453,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 14
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":148.800018,"yPos":-98},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
-    caranya tuan...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":402.2,"yPos":-98.19998},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Sarip
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":109.799988,"yPos":32},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    caranya tuan...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":363.199982,"yPos":31.8000183},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Sarip
     tidak akan mati karena tuah Ibunya. Selagi baru lahir, ari-ari Sarip tidak dikubur.
-    Melainkan dimakan oleh Ibunya. Jadi, hidup Sarip ada di tangan Ibunya.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":399.2,"yPos":13.8000031},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    Melainkan dimakan oleh Ibunya. Jadi, hidup Sarip ada di tangan Ibunya.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":360.199982,"yPos":143.8},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
     tuan tembak dengan peluru biasa, dia hanya akan mati suri. Walaupun Tuan memubuhnya
     seribu kali, Sarip tetap akan hidup kembali kalau Ibunya dapat menemukan mayatnya
-    dan memanggil namanya.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":153.2,"yPos":23.8000031},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    dan memanggil namanya.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":114.199966,"yPos":153.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
     begtiu rupanya. Memang sulit dipercaya.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":152.2,"yPos":132.8},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Memang
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":113.199966,"yPos":262.8},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Memang
     kenyataannya seperti itu Tuan. Kalau Tuan tidak percaya boleh saja, tetapi Tuan
-    tidak akan pernah dapat melenyapkan Sarip.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":388.2,"yPos":140.8},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Lantas,
+    tidak akan pernah dapat melenyapkan Sarip.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":349.199982,"yPos":270.8},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Lantas,
     apa yang harus kami lakukan untuk membuatnya mati selamanya?","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":393.2,"yPos":242.8},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Sarip
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":354.199982,"yPos":372.8},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Sarip
     hanya bisa mati jika tubuhnya tertembus peluru emas yang direndam dalam darah
-    babi. ","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":156.2,"yPos":246.8},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Setelah
+    babi. ","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":117.199966,"yPos":376.8},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Setelah
     itu, penggal tubuhnya dan dibuang ke 2 sungai yang berbeda. Dengan demikian,
     Ibunya tidak akan menemukan jasadanya an memanggilya.","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Salim","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -2673,7 +2721,7 @@ RectTransform:
   - {fileID: 1545466560}
   - {fileID: 1912329073}
   m_Father: {fileID: 1714391464}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4161,7 +4209,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5e8eb4e38fdaba848a0d31a14abd6d4d, type: 3}
     - target: {fileID: 3283598005383615264, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4453492438938873792, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
@@ -4187,6 +4235,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 785ba3229c273a247967f2db34c20dd3, type: 3}
+    - target: {fileID: 5928142146520766280, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6030069602245632619, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4409,7 +4461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7858410434742208919, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8879170996032084526, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
@@ -5106,7 +5158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6561127
+      value: -6.02
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5140,6 +5192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 777228404301063523, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
 --- !u!4 &1989469633 stripped
@@ -5358,9 +5414,29 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.6
+      propertyPath: m_LocalScale.x
+      value: 0.34453624
       objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.34453624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.28711355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694803922553542427, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789628128973948394, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c9f50120c9eda94186008aa676abd38, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 672b44bb6f1abc5488cd290d3ca32bae, type: 3}
 --- !u!1001 &777228404204123360
@@ -5384,7 +5460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.6561127
+      value: -6.0199995
       objectReference: {fileID: 0}
     - target: {fileID: 777228404301063521, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5418,6 +5494,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 777228404301063523, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -665489566, guid: 86531ca37ee496342b2e7fdb2397440a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb72975dc7bc69441989d9e9d25559b2, type: 3}
 --- !u!1001 &1265912206813621450
@@ -5493,6 +5573,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5781833581363299616, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed66abe613168b84e979f503fb573d54, type: 3}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.47954264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269808219669303995, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1119
+      objectReference: {fileID: 0}
     - target: {fileID: 8269808220427214520, guid: 4c9819ac76dee29488304777b3b401c1, type: 3}
       propertyPath: m_Name
       value: Lemari 2

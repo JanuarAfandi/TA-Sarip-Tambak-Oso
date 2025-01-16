@@ -712,7 +712,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Icon: {fileID: 21300000, guid: a9a26b658565f6e42992bdad357534b4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237846
 MonoBehaviour:
@@ -731,7 +731,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237847
 MonoBehaviour:
@@ -750,7 +750,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237848
 MonoBehaviour:
@@ -769,7 +769,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Icon: {fileID: 21300000, guid: 6afe658caed748248b62e94bfa89ccb6, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237849
 MonoBehaviour:
@@ -788,7 +788,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: 2896d65b8af0ee841898f82b88538686, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237850
 MonoBehaviour:
@@ -807,7 +807,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 4ce1eb42c620fa14280d1682fcda86ab, type: 3}
+  Icon: {fileID: 21300000, guid: a9a26b658565f6e42992bdad357534b4, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &660237851
 MonoBehaviour:
@@ -826,7 +826,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 2a91059f0f0f8424cbf6d120d8d852ac, type: 3}
+  Icon: {fileID: 21300000, guid: d775ab8b0afeeff48afd1dd60018630f, type: 3}
   Audio: {fileID: 0}
 --- !u!1001 &679589100
 PrefabInstance:
@@ -987,23 +987,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 7
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":229.800018,"yPos":-382},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":237.799988,"yPos":-491},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Selamat
     Pagi Pak","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":231.800018,"yPos":-265.999969},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi.
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":239.799988,"yPos":-374.999939},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Pagi.
     Ada perlu apa kemari?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":-156.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":242.4,"yPos":-265.199951},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Saya
     ingin melapor bahwa ada kejadian yang tidak menyenangkan.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":-45.2000427},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
-    yang sebenarnya kamu ingin sampaikan?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":234.400024,"yPos":77.79994},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
-    Pak, sebagian dari ahrta dan bahan makanan kita sudah menghilang dan kemungkinan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":242.4,"yPos":-154.200043},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
+    yang sebenarnya ingin kamu sampaikan?","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":242.4,"yPos":-31.2000427},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Begini
+    Pak, sebagian dari harta dan bahan makanan kita sudah menghilang dan kemungkinan
     dicuri oleh seseorang. Tetapi tidak ada yang tahu siapa pelaku dibalik pencurian
     tersebut.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":231.400024,"yPos":195.799927},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":239.4,"yPos":86.79982},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Kalau
     begitu, besok adakan patroli yang lebih ketat. Jika kalian menemukan pencurinya
     segera tangkap dan penjarakan.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pemimpin
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":228.400024,"yPos":306.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
-    Pak! akan kami laksanakan.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":236.4,"yPos":197.799942},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Baik
+    Pak! Siap Laksanakan!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
     Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -2181,11 +2181,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5e8eb4e38fdaba848a0d31a14abd6d4d, type: 3}
     - target: {fileID: 3283598005383615264, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4341485740083550407, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4453492438938873792, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
@@ -2211,6 +2211,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 785ba3229c273a247967f2db34c20dd3, type: 3}
+    - target: {fileID: 5928142146520766280, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6030069602245632619, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2433,7 +2437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7858410434742208919, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8879170996032084526, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Sprite
