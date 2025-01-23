@@ -1398,6 +1398,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: fadeOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: fadeDuration
       value: 1
       objectReference: {fileID: 0}
@@ -1415,7 +1419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -1467,7 +1471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: StartConversation
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -1483,7 +1487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: DialogueEditor.ConversationManager, Assembly-CSharp
+      value: UnityEngine.Playables.PlayableDirector, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -1499,7 +1503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -1527,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: DialogueEditor.NPCConversation, Assembly-CSharp
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1537,13 +1541,53 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 769098145}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FadeOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIFade, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668625, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8141993309795668627, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: m_text
       value: DI MALAM HARINYA
       objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668631, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668631, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8141993309795668631, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+      propertyPath: onCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8141993309795668637, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
@@ -1552,6 +1596,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8141993308575055031, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
   m_PrefabInstance: {fileID: 769098141}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &769098145 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8141993308575055048, guid: 23e838a593de917458da2fddc3166ce4, type: 3}
+  m_PrefabInstance: {fileID: 769098141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769098142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb6b513738f6484ab2b2e328ed2b98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &773388791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3072,7 +3127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4501457, y: 0.44270992, z: -10}
+  m_LocalPosition: {x: 4.4253044, y: 0.44273996, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []
