@@ -2448,23 +2448,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 11
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":210.299988,"yPos":388},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjut","parentUIDs":[10],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":true,"xPos":214.799988,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
-    yang kalian inginkan?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":213.200012,"yPos":140.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Sudah!
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":209.5,"yPos":388},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjut","parentUIDs":[10],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":true,"xPos":214,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
+    yang kalian inginkan?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":212.400024,"yPos":140.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Sudah!
     Tidak usah banyak bicara dasar pencuri!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
-    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":209.200012,"yPos":253.799988},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Rasakan
+    Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":208.400024,"yPos":253.799988},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Rasakan
     akibatnya!!","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Pasukan
     Belanda","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
+  DefaultFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   NodeSerializedDataList:
   - {fileID: 614839764}
   - {fileID: 614839762}
   - {fileID: 614839765}
   - {fileID: 614839766}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -3915,36 +3915,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 5
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":126.799988,"yPos":193},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Mencoba
-    kabur dari penjara","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":356.8,"yPos":195},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tetap
-    di penjara","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":221.799988,"yPos":51},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":119,"yPos":164},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Mencoba
+    kabur dari penjara","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":349,"yPos":166},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Tetap
+    di penjara","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":214,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Apa
     yang harus Sarip lakukan saat ini?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Tentukan
     Pilihanmu","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
+  DefaultFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   NodeSerializedDataList:
   - {fileID: 1895418155}
   - {fileID: 1895418154}
   - {fileID: 1895418153}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 730695411}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1491334357
 GameObject:
   m_ObjectHideFlags: 0
@@ -4239,7 +4227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517184991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.499999, y: 0.6100099, z: -10}
+  m_LocalPosition: {x: 4.827664, y: 0.6100099, z: -10}
   m_LocalScale: {x: 0.7223, y: 0.7223, z: 0.7223}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4290,17 +4278,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 9
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":217.299988,"yPos":275},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjut","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":214.799988,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Aku
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":216.5,"yPos":275},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Lanjut","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":true,"xPos":214,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Aku
     harus keluar dari tempat ini segera.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Sarip","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
+  DefaultFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   NodeSerializedDataList:
   - {fileID: 1034227731}
   - {fileID: 1034227733}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -5079,6 +5067,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0ad3feb84b81d5e45a5937771dba81e1, type: 3}
+    - target: {fileID: 7309550486352408569, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 7309550486352408569, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7309550486587391739, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5091,6 +5087,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 7ca894e75f2f16b4596f77fa81bcad35, type: 3}
+    - target: {fileID: 7309550486796348689, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 796fcebcbe8c5a942903d077c9b699a4, type: 2}
+    - target: {fileID: 7309550486796348689, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7309550487038652921, guid: 346c6e74be1a7ef458d3c7bcc35e5e5c, type: 3}
       propertyPath: m_Name
       value: Game UI Manager
